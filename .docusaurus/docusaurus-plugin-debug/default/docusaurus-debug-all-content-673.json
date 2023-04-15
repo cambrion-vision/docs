@@ -1,0 +1,4949 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "contentPath": "/home/daniel/Cambrion/repos/docs/docs",
+          "contentPathLocalized": "/home/daniel/Cambrion/repos/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Tutorial Intro",
+              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "next": {
+                "title": "Tutorial - Basics",
+                "permalink": "/docs/category/tutorial---basics"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/congratulations",
+              "id": "tutorial-basics/congratulations",
+              "title": "Congratulations!",
+              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+              "source": "@site/docs/tutorial-basics/congratulations.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/congratulations",
+              "permalink": "/docs/tutorial-basics/congratulations",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Deploy your site",
+                "permalink": "/docs/tutorial-basics/deploy-your-site"
+              },
+              "next": {
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/category/tutorial---extras"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-blog-post",
+              "id": "tutorial-basics/create-a-blog-post",
+              "title": "Create a Blog Post",
+              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-blog-post",
+              "permalink": "/docs/tutorial-basics/create-a-blog-post",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Create a Document",
+                "permalink": "/docs/tutorial-basics/create-a-document"
+              },
+              "next": {
+                "title": "Markdown Features",
+                "permalink": "/docs/tutorial-basics/markdown-features"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-document",
+              "id": "tutorial-basics/create-a-document",
+              "title": "Create a Document",
+              "description": "Documents are groups of pages connected through:",
+              "source": "@site/docs/tutorial-basics/create-a-document.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-document",
+              "permalink": "/docs/tutorial-basics/create-a-document",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              },
+              "next": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-page",
+              "id": "tutorial-basics/create-a-page",
+              "title": "Create a Page",
+              "description": "Add Markdown or React files to src/pages to create a standalone page:",
+              "source": "@site/docs/tutorial-basics/create-a-page.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-page",
+              "permalink": "/docs/tutorial-basics/create-a-page",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Tutorial - Basics",
+                "permalink": "/docs/category/tutorial---basics"
+              },
+              "next": {
+                "title": "Create a Document",
+                "permalink": "/docs/tutorial-basics/create-a-document"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/deploy-your-site",
+              "id": "tutorial-basics/deploy-your-site",
+              "title": "Deploy your site",
+              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/deploy-your-site",
+              "permalink": "/docs/tutorial-basics/deploy-your-site",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Markdown Features",
+                "permalink": "/docs/tutorial-basics/markdown-features"
+              },
+              "next": {
+                "title": "Congratulations!",
+                "permalink": "/docs/tutorial-basics/congratulations"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/markdown-features",
+              "id": "tutorial-basics/markdown-features",
+              "title": "Markdown Features",
+              "description": "Docusaurus supports Markdown and a few additional features.",
+              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/markdown-features",
+              "permalink": "/docs/tutorial-basics/markdown-features",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+              },
+              "next": {
+                "title": "Deploy your site",
+                "permalink": "/docs/tutorial-basics/deploy-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-extras/manage-docs-versions",
+              "id": "tutorial-extras/manage-docs-versions",
+              "title": "Manage Docs Versions",
+              "description": "Docusaurus can manage multiple versions of your docs.",
+              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/manage-docs-versions",
+              "permalink": "/docs/tutorial-extras/manage-docs-versions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/category/tutorial---extras"
+              },
+              "next": {
+                "title": "Translate your site",
+                "permalink": "/docs/tutorial-extras/translate-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-extras/translate-your-site",
+              "id": "tutorial-extras/translate-your-site",
+              "title": "Translate your site",
+              "description": "Let's translate docs/intro.md to French.",
+              "source": "@site/docs/tutorial-extras/translate-your-site.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/translate-your-site",
+              "permalink": "/docs/tutorial-extras/translate-your-site",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Manage Docs Versions",
+                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "defaultSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Tutorial - Basics",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-page"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-document"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/create-a-blog-post"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/markdown-features"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/deploy-your-site"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/congratulations"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "5 minutes to learn the most important Docusaurus concepts.",
+                  "slug": "/category/tutorial---basics",
+                  "permalink": "/docs/category/tutorial---basics"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Tutorial - Extras",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-extras/manage-docs-versions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-extras/translate-your-site"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/tutorial---extras",
+                  "permalink": "/docs/category/tutorial---extras"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "title": "Welcome",
+            "description": "Docusaurus blogging features are powered by the blog plugin.",
+            "date": "2021-08-26T00:00:00.000Z",
+            "formattedDate": "August 26, 2021",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.405,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              },
+              {
+                "name": "Yangshun Tay",
+                "title": "Front End Engineer @ Facebook",
+                "url": "https://github.com/yangshun",
+                "imageURL": "https://github.com/yangshun.png",
+                "key": "yangshun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome",
+              "authors": [
+                "slorber",
+                "yangshun"
+              ],
+              "tags": [
+                "facebook",
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "nextItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            }
+          },
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+        },
+        {
+          "id": "mdx-blog-post",
+          "metadata": {
+            "permalink": "/blog/mdx-blog-post",
+            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+            "title": "MDX Blog Post",
+            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+            "date": "2021-08-01T00:00:00.000Z",
+            "formattedDate": "August 1, 2021",
+            "tags": [
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.175,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              }
+            ],
+            "frontMatter": {
+              "slug": "mdx-blog-post",
+              "title": "MDX Blog Post",
+              "authors": [
+                "slorber"
+              ],
+              "tags": [
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+        },
+        {
+          "id": "long-blog-post",
+          "metadata": {
+            "permalink": "/blog/long-blog-post",
+            "source": "@site/blog/2019-05-29-long-blog-post.md",
+            "title": "Long Blog Post",
+            "description": "This is the summary of a very long blog post,",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 2.05,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Endilie Yacop Sucipto",
+                "title": "Maintainer of Docusaurus",
+                "url": "https://github.com/endiliey",
+                "imageURL": "https://github.com/endiliey.png",
+                "key": "endi"
+              }
+            ],
+            "frontMatter": {
+              "slug": "long-blog-post",
+              "title": "Long Blog Post",
+              "authors": "endi",
+              "tags": [
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            },
+            "nextItem": {
+              "title": "First Blog Post",
+              "permalink": "/blog/first-blog-post"
+            }
+          },
+          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        },
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/blog/first-blog-post",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-blog-post",
+              "title": "First Blog Post",
+              "authors": {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              },
+              "tags": [
+                "hola",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/facebook": {
+          "label": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/facebook",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/hello": {
+          "label": "hello",
+          "items": [
+            "welcome",
+            "long-blog-post"
+          ],
+          "permalink": "/blog/tags/hello",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "long-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hello",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/docusaurus": {
+          "label": "docusaurus",
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "mdx-blog-post",
+                "long-blog-post",
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 4,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/hola": {
+          "label": "hola",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/hola",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hola",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-redoc": {
+    "plugin-redoc-0": {
+      "converted": {
+        "openapi": "3.0.3",
+        "info": {
+          "version": "1.0",
+          "title": "Cambrion Execution API",
+          "description": "An API to access Cambrion API"
+        },
+        "tags": [
+          {
+            "name": "Executions",
+            "description": "Execution environment that store results.",
+            "externalDocs": {
+              "description": "Find out more",
+              "url": "http://swagger.io"
+            }
+          },
+          {
+            "name": "Pipelines",
+            "description": "Machine learning pipelines.",
+            "externalDocs": {
+              "description": "Find out more about our store",
+              "url": "http://swagger.io"
+            }
+          },
+          {
+            "name": "Deployments",
+            "description": "(TODO) Deployed Pipelines.",
+            "externalDocs": {
+              "description": "Find out more about our store",
+              "url": "http://swagger.io"
+            }
+          },
+          {
+            "name": "Indices",
+            "description": "Indices",
+            "externalDocs": {
+              "description": "Find out more about our store",
+              "url": "http://swagger.io"
+            }
+          }
+        ],
+        "paths": {
+          "/executions": {
+            "post": {
+              "summary": "Creates an execution",
+              "description": "Create an execution from an ID (optional).\nIf an execution ID is given that ID will be used, otherwise a new one is created. If the execution already\nexists, it will be ignored and 204 will be returned. If a new execution was created, 200 is returned with\nthe execution ID as body.\n",
+              "tags": [
+                "Executions"
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/ExecutionRequest"
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/ExecutionResponse"
+                },
+                "204": {
+                  "description": "Execution existing"
+                },
+                "400": {
+                  "description": "Invalid Execution ID.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                }
+              }
+            },
+            "get": {
+              "summary": "Gets all executions",
+              "tags": [
+                "Executions"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionTag"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/ExecutionsResponse"
+                },
+                "400": {
+                  "description": "Invalid Execution ID.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}": {
+            "get": {
+              "summary": "Gets execution",
+              "tags": [
+                "Executions"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/ExecutionResponse"
+                },
+                "400": {
+                  "description": "Invalid Execution ID.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}/observation/media": {
+            "post": {
+              "summary": "Add media to an observation",
+              "tags": [
+                "Executions"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "requestBody": {
+                "content": {
+                  "image/jpeg": {
+                    "schema": {
+                      "type": "string",
+                      "format": "base64"
+                    }
+                  },
+                  "image/png": {
+                    "schema": {
+                      "type": "string",
+                      "format": "base64"
+                    }
+                  },
+                  "application/pdf": {
+                    "schema": {
+                      "type": "string",
+                      "format": "base64"
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/MediaIdResponse"
+                },
+                "400": {
+                  "description": "Bad request.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}/observation/media/{mediaId}": {
+            "get": {
+              "summary": "Retrieve a specific media",
+              "tags": [
+                "Executions"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                },
+                {
+                  "$ref": "#/components/parameters/MediaId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/MediaResponse"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}/observation": {
+            "post": {
+              "summary": "Merge a raw observation into the current observation",
+              "description": "The raw observation is merged into the current observation context.",
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "tags": [
+                "Executions"
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/Observation"
+              },
+              "responses": {
+                "204": {
+                  "description": "Update observation"
+                },
+                "400": {
+                  "description": "Invalid observation",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            },
+            "get": {
+              "summary": "Get observation",
+              "description": "Get a full observation of the execution.",
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "tags": [
+                "Executions"
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/ObservationResponse"
+                },
+                "400": {
+                  "description": "Bad request",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}/observation/transform": {
+            "post": {
+              "summary": "Transform an observation",
+              "description": "Transform a raw observation into an object using a transformer statement",
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "tags": [
+                "Executions"
+              ],
+              "requestBody": {
+                "description": "A JSONata object to transform an observation into a custom representation. \n[JSONata Documentation](https://docs.jsonata.org/overview.html)\n",
+                "content": {
+                  "text/plain": {
+                    "schema": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/TransformerResponse"
+                },
+                "400": {
+                  "description": "Bad transform object.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}/link": {
+            "post": {
+              "summary": "Link results of an execution",
+              "description": "Link contents of observation to documents in an index.",
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "tags": [
+                "Executions"
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/LinkerRequest"
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/LinkerResponse"
+                },
+                "400": {
+                  "description": "Bad linker parameters",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/pipelines": {
+            "get": {
+              "summary": "Get all deployed pipelines",
+              "tags": [
+                "Pipelines"
+              ],
+              "responses": {
+                "200": {
+                  "description": "Get list of all available pipelines",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/components/schemas/Pipeline"
+                        }
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                }
+              }
+            }
+          },
+          "/pipelines/{pipelineId}": {
+            "get": {
+              "summary": "Get a specific pipeline",
+              "tags": [
+                "Pipelines"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/PipelineId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/PipelineResponse"
+                },
+                "400": {
+                  "description": "Bad request.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/pipelines/{pipelineId}/description": {
+            "get": {
+              "summary": "Get YAML description of a pipeline",
+              "tags": [
+                "Pipelines"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/PipelineId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/PipelineDefinitionResponse"
+                },
+                "400": {
+                  "description": "Bad request.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/pipelines/{pipelineId}/executeSync": {
+            "post": {
+              "summary": "Execute pipeline synchronously",
+              "tags": [
+                "Pipelines"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/PipelineId"
+                }
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/PipelineExecutionRequest"
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/PipelineSyncResponse"
+                },
+                "400": {
+                  "description": "Invalid execution request (i.e. Execution not found!).",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/pipelines/{pipelineId}/executeSync/transform": {
+            "post": {
+              "summary": "Transform an observation",
+              "description": "Transform the output observation of a pipeline directly.\n",
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/PipelineId"
+                }
+              ],
+              "tags": [
+                "Pipelines"
+              ],
+              "requestBody": {
+                "description": "A JSONata object to transform an observation into a custom representation. \n[JSONata Documentation](https://docs.jsonata.org/overview.html)\n",
+                "$ref": "#/components/requestBodies/PipelineExecutionRequest"
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/TransformerResponse"
+                },
+                "400": {
+                  "description": "Bad transform object.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/pipelines/{pipelineId}/executeAsync": {
+            "post": {
+              "summary": "Execute pipeline asynchronously",
+              "tags": [
+                "Pipelines"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/PipelineId"
+                }
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/PipelineExecutionRequest"
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/PipelineAsyncResponse"
+                }
+              }
+            }
+          },
+          "/indices": {
+            "get": {
+              "summary": "Get all indices",
+              "description": "Get a list of all indices.",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexLimit"
+                },
+                {
+                  "$ref": "#/components/parameters/IndexOffset"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "A list of all indices",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/components/schemas/Index"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "post": {
+              "summary": "Create index",
+              "description": "Create a new index with an optional schema.",
+              "tags": [
+                "Indices"
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/IndexRequest"
+              },
+              "responses": {
+                "204": {
+                  "description": "Index created"
+                },
+                "400": {
+                  "description": "Invalid invalid request",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                }
+              }
+            }
+          },
+          "/indices/{indexId}": {
+            "get": {
+              "summary": "Get index description",
+              "description": "Get the description of an index. Including the data model if present.\n",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/IndexResponse"
+                },
+                "400": {
+                  "description": "Invalid index ID",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            },
+            "delete": {
+              "summary": "Delete index",
+              "description": "Delete an index.",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                }
+              ],
+              "responses": {
+                "204": {
+                  "description": "Index deleted."
+                },
+                "400": {
+                  "description": "Invalid index ID",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/indices/{indexId}/documents": {
+            "get": {
+              "summary": "Get all documents",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                },
+                {
+                  "$ref": "#/components/parameters/DocumentLimit"
+                },
+                {
+                  "$ref": "#/components/parameters/DocumentOffset"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "A list of all indices",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/components/schemas/IndexedDocument"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "post": {
+              "summary": "Create document",
+              "description": "Create a JSON document in an index. If the index does not exist it will be created automatically.\n",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                }
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/DocumentRequest"
+              },
+              "responses": {
+                "204": {
+                  "description": "Document stored successfully"
+                },
+                "400": {
+                  "description": "Invalid index ID",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/indices/{indexId}/documents/{documentId}": {
+            "get": {
+              "summary": "Get document",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                },
+                {
+                  "$ref": "#/components/parameters/DocumentId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/DocumentResponse"
+                },
+                "400": {
+                  "description": "Invalid index ID or document ID",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            },
+            "delete": {
+              "summary": "Delete document",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                },
+                {
+                  "$ref": "#/components/parameters/DocumentId"
+                }
+              ],
+              "responses": {
+                "204": {
+                  "description": "Document deleted"
+                },
+                "400": {
+                  "description": "Invalid index ID or document ID",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:8080/"
+          }
+        ],
+        "components": {
+          "requestBodies": {
+            "PipelineExecutionRequest": {
+              "description": "Execution request for a pipeline",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/PipelineExecutionObject"
+                  }
+                }
+              }
+            },
+            "ExecutionRequest": {
+              "description": "Execution is the context which holds data related to a specific execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Execution"
+                  }
+                }
+              }
+            },
+            "PipelineRequest": {
+              "description": "Pipeline request",
+              "content": {
+                "application/x-www-form-urlencoded": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "pipelineName": {
+                        "type": "string"
+                      },
+                      "pipelineId": {
+                        "type": "string"
+                      },
+                      "pipelineDescription": {
+                        "type": "object",
+                        "additionalProperties": true
+                      }
+                    }
+                  },
+                  "encoding": {
+                    "pipelineDescription": {
+                      "contentType": "application/x-yaml"
+                    }
+                  }
+                }
+              }
+            },
+            "Observation": {
+              "description": "Observation request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Observation"
+                  }
+                }
+              }
+            },
+            "MediaRequest": {
+              "description": "Observation request",
+              "content": {
+                "image/png": {
+                  "schema": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                },
+                "application/pdf": {
+                  "schema": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                },
+                "text/plain": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "LinkerRequest": {
+              "description": "Linker request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/EntityLinkerConfig"
+                  }
+                }
+              }
+            },
+            "IndexRequest": {
+              "description": "Index creation request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Index"
+                  }
+                }
+              }
+            },
+            "DocumentRequest": {
+              "description": "Document request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/IndexedDocument"
+                  }
+                }
+              }
+            }
+          },
+          "responses": {
+            "ExecutionResponse": {
+              "description": "Response of an execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Execution"
+                  }
+                }
+              }
+            },
+            "ExecutionsResponse": {
+              "description": "Response of an execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Execution"
+                    }
+                  }
+                }
+              }
+            },
+            "PipelineResponse": {
+              "description": "Response of synchronous pipeline execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Pipeline"
+                  }
+                }
+              }
+            },
+            "PipelineDefinitionResponse": {
+              "description": "Pipeline in definition in YAML",
+              "content": {
+                "application/x-yaml": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "PipelineSyncResponse": {
+              "description": "Response of synchronous pipeline execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "executionId": {
+                        "type": "string"
+                      },
+                      "observation": {
+                        "$ref": "#/components/schemas/Observation"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "PipelineDeploymentResponse": {
+              "description": "Response of pipeline deployment",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "pipelineDeploymentnId": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "PipelineAsyncResponse": {
+              "description": "Response of asynchronous pipeline execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "executionId": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "MediaResponse": {
+              "description": "Specific media",
+              "content": {
+                "image/*": {
+                  "schema": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                },
+                "application/pdf": {
+                  "schema": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                },
+                "text/plain": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "MediaIdResponse": {
+              "description": "Update media ID",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "mediaId": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "ObservationResponse": {
+              "description": "Observation response",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Observation"
+                  }
+                }
+              }
+            },
+            "LinkerResponse": {
+              "description": "Linker response",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/LinkedDocument"
+                    }
+                  }
+                }
+              }
+            },
+            "DocumentResponse": {
+              "description": "Document response",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/IndexedDocument"
+                  }
+                }
+              }
+            },
+            "TransformerResponse": {
+              "description": "Response of after transformation. The output can be an arbitrary object created by a JSONata\nexpression. It must be deserialized.\n",
+              "content": {
+                "text/plain": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "IndexResponse": {
+              "description": "Response of after transformation",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Index"
+                  }
+                }
+              }
+            },
+            "NotFound": {
+              "description": "The specified resource was not found",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Error"
+                  }
+                }
+              }
+            },
+            "Unauthorized": {
+              "description": "Unauthorized",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Error"
+                  }
+                }
+              }
+            }
+          },
+          "parameters": {
+            "PipelineId": {
+              "name": "pipelineId",
+              "in": "path",
+              "description": "ID of the pipeline to execute",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            "DeploymentId": {
+              "name": "deploymentId",
+              "in": "path",
+              "description": "ID of the pipeline deployment",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            "ExecutionId": {
+              "name": "executionId",
+              "in": "path",
+              "description": "ID of an execution",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            "MediaId": {
+              "name": "mediaId",
+              "in": "path",
+              "description": "ID of uploaded media",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            "IndexId": {
+              "name": "indexId",
+              "in": "path",
+              "description": "ID of the index",
+              "required": true,
+              "schema": {
+                "type": "string"
+              },
+              "example": "Warehouse-Index"
+            },
+            "DocumentId": {
+              "name": "documentId",
+              "in": "path",
+              "description": "ID of a document",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            "ExecutionTag": {
+              "name": "tag",
+              "in": "query",
+              "description": "Filter executions by tag",
+              "schema": {
+                "type": "string"
+              }
+            },
+            "IndexLimit": {
+              "name": "limit",
+              "in": "query",
+              "description": "Limits the number of indices on a page",
+              "schema": {
+                "type": "integer"
+              }
+            },
+            "IndexOffset": {
+              "name": "offset",
+              "in": "query",
+              "description": "Specifies the page number of the indices to be displayed",
+              "schema": {
+                "type": "integer"
+              }
+            },
+            "DocumentLimit": {
+              "name": "limit",
+              "in": "query",
+              "description": "Limits the number of documents on a page",
+              "schema": {
+                "type": "integer"
+              }
+            },
+            "DocumentOffset": {
+              "name": "offset",
+              "in": "query",
+              "description": "Specifies the page number of the documents to be displayed",
+              "schema": {
+                "type": "integer"
+              }
+            }
+          },
+          "schemas": {
+            "Pipeline": {
+              "type": "object",
+              "properties": {
+                "pipelineName": {
+                  "type": "string"
+                },
+                "pipelineId": {
+                  "type": "string"
+                },
+                "pipelineDefinitionId": {
+                  "type": "string"
+                },
+                "pipelineDescription": {
+                  "type": "string"
+                }
+              }
+            },
+            "Execution": {
+              "type": "object",
+              "description": "The execution is a stateful environment\nin which media (such as images or PDF files) can be stored an used an inputs for pipelines. The ID\nin the request body is optional (generated if empty) and must be unique.\n",
+              "properties": {
+                "executionId": {
+                  "type": "string",
+                  "description": "ID of the execution"
+                },
+                "tag": {
+                  "type": "string",
+                  "description": "Tag to identify the execution"
+                },
+                "createdAt": {
+                  "type": "string",
+                  "description": "Creation time"
+                },
+                "metaData": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            },
+            "PipelineExecutionObject": {
+              "type": "object",
+              "description": "The execution is a stateful environment\nin which media (such as images or PDF files) can be stored an used an inputs for pipelines. The ID\nin the request body is optional (generated if empty) and must be unique. Nothing will be persisted \nif transient is true. In order to trigger the pipeline either an execution ID containing valid media or base 64 encoded \nmedia under the media property have to be provided.\n",
+              "properties": {
+                "executionId": {
+                  "type": "string",
+                  "description": "ID of the execution"
+                },
+                "tag": {
+                  "type": "string",
+                  "description": "Tag used to identify the resulting execution. Ignored if transient is true."
+                },
+                "transient": {
+                  "type": "boolean",
+                  "description": "Whether to delete all execution data after pipeline completion"
+                },
+                "transform": {
+                  "type": "string"
+                },
+                "media": {
+                  "description": "Array of base 64 encoded media files. Content type will be detected automatically.",
+                  "items": {
+                    "type": "string",
+                    "format": "base64"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "EntityLinkerConfig": {
+              "properties": {
+                "group": {
+                  "items": {
+                    "$ref": "#/components/schemas/MatchGroup"
+                  },
+                  "type": "array"
+                },
+                "document": {
+                  "type": "object",
+                  "additionalProperties": true
+                },
+                "topk": {
+                  "items": {
+                    "$ref": "#/components/schemas/TopKIndexFilter"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object",
+              "title": "Entity Link Request"
+            },
+            "Index": {
+              "type": "object",
+              "properties": {
+                "indexId": {
+                  "type": "string"
+                },
+                "indexSchema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            },
+            "IndexedDocument": {
+              "type": "object",
+              "properties": {
+                "indexId": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            },
+            "Block": {
+              "required": [
+                "text",
+                "geometry"
+              ],
+              "properties": {
+                "text": {
+                  "type": "string"
+                },
+                "geometry": {
+                  "$ref": "#/components/schemas/Geometry"
+                }
+              },
+              "type": "object",
+              "title": "Block"
+            },
+            "BoundingBox": {
+              "required": [
+                "width",
+                "height",
+                "left",
+                "top"
+              ],
+              "properties": {
+                "width": {
+                  "type": "number"
+                },
+                "height": {
+                  "type": "number"
+                },
+                "left": {
+                  "type": "number"
+                },
+                "top": {
+                  "type": "number"
+                }
+              },
+              "type": "object",
+              "title": "Bounding Box"
+            },
+            "Code": {
+              "required": [
+                "id",
+                "entity",
+                "payload",
+                "type"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "entity": {
+                  "$ref": "#/components/schemas/Entity"
+                },
+                "tag": {
+                  "type": "string"
+                },
+                "payload": {
+                  "type": "string",
+                  "format": "binary"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "UPC_A",
+                    "UPC_E",
+                    "EAN_8",
+                    "EAN_13",
+                    "UPC_EAN_EXTENSION",
+                    "CODE_39",
+                    "CODE_93",
+                    "CODE_128",
+                    "CODEBAR",
+                    "ITF",
+                    "QR_CODE",
+                    "DATA_MATRIX",
+                    "AZTEC",
+                    "PDF_417",
+                    "MAXICODE",
+                    "RSS_14",
+                    "RSS_EXPANDED"
+                  ],
+                  "title": "Code Type"
+                }
+              },
+              "type": "object",
+              "title": "Code entity"
+            },
+            "Collection": {
+              "required": [
+                "source"
+              ],
+              "properties": {
+                "source": {
+                  "type": "string",
+                  "enum": [
+                    "ENTITY_TEXT",
+                    "ENTITY_VALUE",
+                    "ENTITY_DATA",
+                    "KEY_VALUE",
+                    "KEY_DATA",
+                    "KEY_TEXT",
+                    "VALUE_TEXT",
+                    "VALUE_VALUE",
+                    "VALUE_DATA",
+                    "TABLE_CELL_ROW_TAG",
+                    "CODE"
+                  ],
+                  "title": "Collection Source"
+                }
+              },
+              "type": "object",
+              "title": "Collection"
+            },
+            "Document": {
+              "properties": {
+                "tables": {
+                  "items": {
+                    "$ref": "#/components/schemas/Table"
+                  },
+                  "type": "array"
+                },
+                "entities": {
+                  "items": {
+                    "$ref": "#/components/schemas/Entity"
+                  },
+                  "type": "array"
+                },
+                "keyValueSet": {
+                  "$ref": "#/components/schemas/KeyValueSet"
+                }
+              },
+              "type": "object",
+              "title": "Document"
+            },
+            "DocumentPage": {
+              "required": [
+                "page",
+                "document"
+              ],
+              "properties": {
+                "page": {
+                  "type": "integer"
+                },
+                "document": {
+                  "$ref": "#/components/schemas/Document"
+                }
+              },
+              "type": "object",
+              "title": "Document page"
+            },
+            "Entity": {
+              "required": [
+                "id",
+                "block",
+                "confidence"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "block": {
+                  "$ref": "#/components/schemas/Block"
+                },
+                "confidence": {
+                  "type": "number"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "STRING",
+                    "NUMBER",
+                    "QUANTITY",
+                    "UNIT",
+                    "DATE",
+                    "PERCENTAGE"
+                  ],
+                  "title": "Entity Type"
+                },
+                "data": {
+                  "$ref": "#/components/schemas/EntityData"
+                },
+                "embedding": {
+                  "items": {
+                    "type": "number"
+                  },
+                  "type": "array"
+                },
+                "similarity": {
+                  "$ref": "#/components/schemas/EntitySimilarity"
+                },
+                "layoutType": {
+                  "type": "string",
+                  "enum": [
+                    "WORD",
+                    "LINE"
+                  ],
+                  "title": "Entity Layout Type"
+                }
+              },
+              "type": "object",
+              "title": "Entity"
+            },
+            "EntityData": {
+              "properties": {
+                "documentId": {
+                  "type": "string"
+                },
+                "textValue": {
+                  "type": "string"
+                },
+                "quantityValue": {
+                  "type": "integer"
+                },
+                "numberValue": {
+                  "type": "number"
+                },
+                "unitValue": {
+                  "type": "string"
+                },
+                "dateValue": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "textData": {
+                  "type": "string"
+                },
+                "quantityData": {
+                  "type": "integer"
+                },
+                "numberData": {
+                  "type": "number"
+                },
+                "unitData": {
+                  "type": "string"
+                },
+                "dateData": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "field": {
+                  "type": "string"
+                },
+                "score": {
+                  "type": "number"
+                },
+                "sourceIndex": {
+                  "type": "string"
+                }
+              },
+              "type": "object",
+              "title": "Entity Data"
+            },
+            "EntityFilter": {
+              "properties": {
+                "tag": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "regExp": {
+                  "type": "string"
+                },
+                "hasData": {
+                  "type": "boolean"
+                },
+                "hasValue": {
+                  "type": "boolean"
+                },
+                "layoutType": {
+                  "type": "string",
+                  "enum": [
+                    "WORD",
+                    "LINE"
+                  ],
+                  "title": "Entity Layout Type"
+                }
+              },
+              "type": "object",
+              "title": "Entity Filter"
+            },
+            "EntitySimilarity": {
+              "required": [
+                "type"
+              ],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "TEXT_SIM",
+                    "NUMBER_DIFF",
+                    "BOOL_SAME"
+                  ],
+                  "title": "Similarity Type"
+                },
+                "cosineSimilarity": {
+                  "type": "number"
+                },
+                "amountDiff": {
+                  "type": "integer"
+                },
+                "numberDiff": {
+                  "type": "number"
+                },
+                "same": {
+                  "type": "boolean"
+                }
+              },
+              "type": "object",
+              "title": "Entity Similarity"
+            },
+            "Geometry": {
+              "required": [
+                "boundingBox"
+              ],
+              "properties": {
+                "polygon": {
+                  "$ref": "#/components/schemas/Polygon"
+                },
+                "boundingBox": {
+                  "$ref": "#/components/schemas/BoundingBox"
+                }
+              },
+              "type": "object",
+              "title": "Geometry"
+            },
+            "ImageContent": {
+              "required": [
+                "id",
+                "mediaId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "mediaId": {
+                  "type": "string"
+                },
+                "documentPages": {
+                  "items": {
+                    "$ref": "#/components/schemas/DocumentPage"
+                  },
+                  "type": "array"
+                },
+                "imageHash": {
+                  "type": "string"
+                },
+                "codes": {
+                  "items": {
+                    "$ref": "#/components/schemas/Code"
+                  },
+                  "type": "array"
+                },
+                "metaData": {
+                  "$ref": "#/components/schemas/ImageMetaData"
+                },
+                "label": {
+                  "$ref": "#/components/schemas/Label"
+                }
+              },
+              "type": "object",
+              "title": "Image Content"
+            },
+            "TextContent": {
+              "required": [
+                "id",
+                "mediaId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "mediaId": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "label": {
+                  "$ref": "#/components/schemas/Label"
+                }
+              },
+              "type": "object",
+              "title": "Text Content"
+            },
+            "ImageMetaData": {
+              "required": [
+                "width",
+                "height"
+              ],
+              "properties": {
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "type": "object",
+              "title": "Image Meta Data"
+            },
+            "Observation": {
+              "required": [
+                "executionId"
+              ],
+              "properties": {
+                "executionId": {
+                  "type": "string"
+                },
+                "imageContents": {
+                  "items": {
+                    "$ref": "#/components/schemas/ImageContent"
+                  },
+                  "type": "array"
+                },
+                "textContents": {
+                  "items": {
+                    "$ref": "#/components/schemas/TextContent"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object",
+              "title": "Execution Observation"
+            },
+            "KeyValuePair": {
+              "required": [
+                "key"
+              ],
+              "properties": {
+                "key": {
+                  "$ref": "#/components/schemas/Entity"
+                },
+                "entityValue": {
+                  "$ref": "#/components/schemas/Entity"
+                },
+                "keyValueSetValue": {
+                  "$ref": "#/components/schemas/KeyValueSet"
+                },
+                "tableValue": {
+                  "$ref": "#/components/schemas/Table"
+                },
+                "tag": {
+                  "type": "string"
+                }
+              },
+              "type": "object",
+              "title": "Key Value Pair"
+            },
+            "KeyValueSet": {
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "tag": {
+                  "type": "string"
+                },
+                "pairs": {
+                  "items": {
+                    "$ref": "#/components/schemas/KeyValuePair"
+                  },
+                  "type": "array"
+                },
+                "entity": {
+                  "$ref": "#/components/schemas/Entity"
+                }
+              },
+              "type": "object",
+              "title": "Key Value Set"
+            },
+            "Label": {
+              "required": [
+                "index",
+                "name",
+                "confidence"
+              ],
+              "properties": {
+                "index": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "confidence": {
+                  "type": "number"
+                }
+              },
+              "type": "object",
+              "title": "Label"
+            },
+            "MatchField": {
+              "required": [
+                "fieldName",
+                "clause",
+                "collection",
+                "mode"
+              ],
+              "properties": {
+                "fieldName": {
+                  "type": "string"
+                },
+                "clause": {
+                  "type": "string",
+                  "enum": [
+                    "MUST",
+                    "MUST_NOT",
+                    "SHOULD",
+                    "FILTER"
+                  ],
+                  "title": "Bool Clause"
+                },
+                "fuzziness": {
+                  "type": "integer"
+                },
+                "auto": {
+                  "type": "string"
+                },
+                "filter": {
+                  "$ref": "#/components/schemas/EntityFilter"
+                },
+                "collection": {
+                  "$ref": "#/components/schemas/Collection"
+                },
+                "threshold": {
+                  "type": "number"
+                },
+                "num_results": {
+                  "type": "integer"
+                },
+                "mode": {
+                  "type": "string",
+                  "enum": [
+                    "SEARCH",
+                    "COMPARE",
+                    "SEARCH_COMPARE"
+                  ],
+                  "title": "Field Mode"
+                },
+                "dimension": {
+                  "type": "string",
+                  "enum": [
+                    "EMPTY",
+                    "ENTITY",
+                    "TABLE_ROW"
+                  ],
+                  "title": "Query Dimension"
+                },
+                "analyzer": {
+                  "type": "string"
+                }
+              },
+              "type": "object",
+              "title": "Match Field"
+            },
+            "MatchGroup": {
+              "required": [
+                "tag",
+                "index"
+              ],
+              "properties": {
+                "tag": {
+                  "type": "string"
+                },
+                "fields": {
+                  "items": {
+                    "$ref": "#/components/schemas/MatchField"
+                  },
+                  "type": "array"
+                },
+                "index": {
+                  "type": "string"
+                }
+              },
+              "type": "object",
+              "title": "Match Group"
+            },
+            "Point": {
+              "required": [
+                "x",
+                "y"
+              ],
+              "properties": {
+                "x": {
+                  "type": "number"
+                },
+                "y": {
+                  "type": "number"
+                }
+              },
+              "type": "object",
+              "title": "Point"
+            },
+            "Polygon": {
+              "properties": {
+                "points": {
+                  "items": {
+                    "$ref": "#/components/schemas/Point"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object",
+              "title": "Polygon"
+            },
+            "Table": {
+              "required": [
+                "id",
+                "entity"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "entity": {
+                  "$ref": "#/components/schemas/Entity"
+                },
+                "tag": {
+                  "type": "string"
+                },
+                "headers": {
+                  "items": {
+                    "$ref": "#/components/schemas/Entity"
+                  },
+                  "type": "array"
+                },
+                "rows": {
+                  "items": {
+                    "$ref": "#/components/schemas/KeyValueSet"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object",
+              "title": "Table"
+            },
+            "TopKIndexFilter": {
+              "required": [
+                "index",
+                "topk"
+              ],
+              "properties": {
+                "index": {
+                  "type": "string"
+                },
+                "topk": {
+                  "type": "integer"
+                }
+              },
+              "type": "object",
+              "title": "Top K Index Filter"
+            },
+            "LinkedDocument": {
+              "required": [
+                "tag"
+              ],
+              "properties": {
+                "document": {
+                  "additionalProperties": true,
+                  "type": "object"
+                },
+                "fields": {
+                  "items": {
+                    "$ref": "#/components/schemas/LinkedField"
+                  },
+                  "type": "array"
+                },
+                "tag": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true,
+              "type": "object",
+              "title": "Linked Document"
+            },
+            "Error": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "message"
+              ]
+            },
+            "LinkedField": {
+              "required": [
+                "fieldName"
+              ],
+              "properties": {
+                "documentId": {
+                  "type": "string"
+                },
+                "index": {
+                  "type": "string"
+                },
+                "score": {
+                  "type": "number"
+                },
+                "fieldName": {
+                  "type": "string"
+                },
+                "textValue": {
+                  "type": "string"
+                },
+                "quantityValue": {
+                  "type": "integer"
+                },
+                "numberValue": {
+                  "type": "number"
+                },
+                "unitValue": {
+                  "type": "string"
+                },
+                "dateValue": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "textData": {
+                  "type": "string"
+                },
+                "quantityData": {
+                  "type": "integer"
+                },
+                "numberData": {
+                  "type": "number"
+                },
+                "unitData": {
+                  "type": "string"
+                },
+                "dateData": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "cosineSimilarity": {
+                  "type": "number"
+                },
+                "quantityDiff": {
+                  "type": "integer"
+                },
+                "numberDiff": {
+                  "type": "number"
+                },
+                "same": {
+                  "type": "boolean"
+                },
+                "entityId": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true,
+              "type": "object",
+              "title": "Linked Field"
+            }
+          },
+          "securitySchemes": {
+            "api_key": {
+              "type": "apiKey",
+              "name": "api_key",
+              "in": "header"
+            }
+          }
+        }
+      },
+      "bundle": {
+        "openapi": "3.0.3",
+        "info": {
+          "version": "1.0",
+          "title": "Cambrion Execution API",
+          "description": "An API to access Cambrion API"
+        },
+        "tags": [
+          {
+            "name": "Executions",
+            "description": "Execution environment that store results.",
+            "externalDocs": {
+              "description": "Find out more",
+              "url": "http://swagger.io"
+            }
+          },
+          {
+            "name": "Pipelines",
+            "description": "Machine learning pipelines.",
+            "externalDocs": {
+              "description": "Find out more about our store",
+              "url": "http://swagger.io"
+            }
+          },
+          {
+            "name": "Deployments",
+            "description": "(TODO) Deployed Pipelines.",
+            "externalDocs": {
+              "description": "Find out more about our store",
+              "url": "http://swagger.io"
+            }
+          },
+          {
+            "name": "Indices",
+            "description": "Indices",
+            "externalDocs": {
+              "description": "Find out more about our store",
+              "url": "http://swagger.io"
+            }
+          }
+        ],
+        "paths": {
+          "/executions": {
+            "post": {
+              "summary": "Creates an execution",
+              "description": "Create an execution from an ID (optional).\nIf an execution ID is given that ID will be used, otherwise a new one is created. If the execution already\nexists, it will be ignored and 204 will be returned. If a new execution was created, 200 is returned with\nthe execution ID as body.\n",
+              "tags": [
+                "Executions"
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/ExecutionRequest"
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/ExecutionResponse"
+                },
+                "204": {
+                  "description": "Execution existing"
+                },
+                "400": {
+                  "description": "Invalid Execution ID.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                }
+              }
+            },
+            "get": {
+              "summary": "Gets all executions",
+              "tags": [
+                "Executions"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionTag"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/ExecutionsResponse"
+                },
+                "400": {
+                  "description": "Invalid Execution ID.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}": {
+            "get": {
+              "summary": "Gets execution",
+              "tags": [
+                "Executions"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/ExecutionResponse"
+                },
+                "400": {
+                  "description": "Invalid Execution ID.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}/observation/media": {
+            "post": {
+              "summary": "Add media to an observation",
+              "tags": [
+                "Executions"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "requestBody": {
+                "content": {
+                  "image/jpeg": {
+                    "schema": {
+                      "type": "string",
+                      "format": "base64"
+                    }
+                  },
+                  "image/png": {
+                    "schema": {
+                      "type": "string",
+                      "format": "base64"
+                    }
+                  },
+                  "application/pdf": {
+                    "schema": {
+                      "type": "string",
+                      "format": "base64"
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/MediaIdResponse"
+                },
+                "400": {
+                  "description": "Bad request.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}/observation/media/{mediaId}": {
+            "get": {
+              "summary": "Retrieve a specific media",
+              "tags": [
+                "Executions"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                },
+                {
+                  "$ref": "#/components/parameters/MediaId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/MediaResponse"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}/observation": {
+            "post": {
+              "summary": "Merge a raw observation into the current observation",
+              "description": "The raw observation is merged into the current observation context.",
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "tags": [
+                "Executions"
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/Observation"
+              },
+              "responses": {
+                "204": {
+                  "description": "Update observation"
+                },
+                "400": {
+                  "description": "Invalid observation",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            },
+            "get": {
+              "summary": "Get observation",
+              "description": "Get a full observation of the execution.",
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "tags": [
+                "Executions"
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/ObservationResponse"
+                },
+                "400": {
+                  "description": "Bad request",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}/observation/transform": {
+            "post": {
+              "summary": "Transform an observation",
+              "description": "Transform a raw observation into an object using a transformer statement",
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "tags": [
+                "Executions"
+              ],
+              "requestBody": {
+                "description": "A JSONata object to transform an observation into a custom representation. \n[JSONata Documentation](https://docs.jsonata.org/overview.html)\n",
+                "content": {
+                  "text/plain": {
+                    "schema": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/TransformerResponse"
+                },
+                "400": {
+                  "description": "Bad transform object.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/executions/{executionId}/link": {
+            "post": {
+              "summary": "Link results of an execution",
+              "description": "Link contents of observation to documents in an index.",
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/ExecutionId"
+                }
+              ],
+              "tags": [
+                "Executions"
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/LinkerRequest"
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/LinkerResponse"
+                },
+                "400": {
+                  "description": "Bad linker parameters",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/pipelines": {
+            "get": {
+              "summary": "Get all deployed pipelines",
+              "tags": [
+                "Pipelines"
+              ],
+              "responses": {
+                "200": {
+                  "description": "Get list of all available pipelines",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/components/schemas/Pipeline"
+                        }
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                }
+              }
+            }
+          },
+          "/pipelines/{pipelineId}": {
+            "get": {
+              "summary": "Get a specific pipeline",
+              "tags": [
+                "Pipelines"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/PipelineId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/PipelineResponse"
+                },
+                "400": {
+                  "description": "Bad request.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/pipelines/{pipelineId}/description": {
+            "get": {
+              "summary": "Get YAML description of a pipeline",
+              "tags": [
+                "Pipelines"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/PipelineId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/PipelineDefinitionResponse"
+                },
+                "400": {
+                  "description": "Bad request.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/pipelines/{pipelineId}/executeSync": {
+            "post": {
+              "summary": "Execute pipeline synchronously",
+              "tags": [
+                "Pipelines"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/PipelineId"
+                }
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/PipelineExecutionRequest"
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/PipelineSyncResponse"
+                },
+                "400": {
+                  "description": "Invalid execution request (i.e. Execution not found!).",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/pipelines/{pipelineId}/executeSync/transform": {
+            "post": {
+              "summary": "Transform an observation",
+              "description": "Transform the output observation of a pipeline directly.\n",
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/PipelineId"
+                }
+              ],
+              "tags": [
+                "Pipelines"
+              ],
+              "requestBody": {
+                "description": "A JSONata object to transform an observation into a custom representation. \n[JSONata Documentation](https://docs.jsonata.org/overview.html)\n",
+                "$ref": "#/components/requestBodies/PipelineExecutionRequest"
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/TransformerResponse"
+                },
+                "400": {
+                  "description": "Bad transform object.",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/pipelines/{pipelineId}/executeAsync": {
+            "post": {
+              "summary": "Execute pipeline asynchronously",
+              "tags": [
+                "Pipelines"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/PipelineId"
+                }
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/PipelineExecutionRequest"
+              },
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/PipelineAsyncResponse"
+                }
+              }
+            }
+          },
+          "/indices": {
+            "get": {
+              "summary": "Get all indices",
+              "description": "Get a list of all indices.",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexLimit"
+                },
+                {
+                  "$ref": "#/components/parameters/IndexOffset"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "A list of all indices",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/components/schemas/Index"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "post": {
+              "summary": "Create index",
+              "description": "Create a new index with an optional schema.",
+              "tags": [
+                "Indices"
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/IndexRequest"
+              },
+              "responses": {
+                "204": {
+                  "description": "Index created"
+                },
+                "400": {
+                  "description": "Invalid invalid request",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                }
+              }
+            }
+          },
+          "/indices/{indexId}": {
+            "get": {
+              "summary": "Get index description",
+              "description": "Get the description of an index. Including the data model if present.\n",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/IndexResponse"
+                },
+                "400": {
+                  "description": "Invalid index ID",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            },
+            "delete": {
+              "summary": "Delete index",
+              "description": "Delete an index.",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                }
+              ],
+              "responses": {
+                "204": {
+                  "description": "Index deleted."
+                },
+                "400": {
+                  "description": "Invalid index ID",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/indices/{indexId}/documents": {
+            "get": {
+              "summary": "Get all documents",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                },
+                {
+                  "$ref": "#/components/parameters/DocumentLimit"
+                },
+                {
+                  "$ref": "#/components/parameters/DocumentOffset"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "A list of all indices",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "array",
+                        "items": {
+                          "$ref": "#/components/schemas/IndexedDocument"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "post": {
+              "summary": "Create document",
+              "description": "Create a JSON document in an index. If the index does not exist it will be created automatically.\n",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                }
+              ],
+              "requestBody": {
+                "$ref": "#/components/requestBodies/DocumentRequest"
+              },
+              "responses": {
+                "204": {
+                  "description": "Document stored successfully"
+                },
+                "400": {
+                  "description": "Invalid index ID",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          },
+          "/indices/{indexId}/documents/{documentId}": {
+            "get": {
+              "summary": "Get document",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                },
+                {
+                  "$ref": "#/components/parameters/DocumentId"
+                }
+              ],
+              "responses": {
+                "200": {
+                  "$ref": "#/components/responses/DocumentResponse"
+                },
+                "400": {
+                  "description": "Invalid index ID or document ID",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            },
+            "delete": {
+              "summary": "Delete document",
+              "tags": [
+                "Indices"
+              ],
+              "parameters": [
+                {
+                  "$ref": "#/components/parameters/IndexId"
+                },
+                {
+                  "$ref": "#/components/parameters/DocumentId"
+                }
+              ],
+              "responses": {
+                "204": {
+                  "description": "Document deleted"
+                },
+                "400": {
+                  "description": "Invalid index ID or document ID",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "$ref": "#/components/schemas/Error"
+                      }
+                    }
+                  }
+                },
+                "401": {
+                  "$ref": "#/components/responses/Unauthorized"
+                },
+                "404": {
+                  "$ref": "#/components/responses/NotFound"
+                }
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:8080/"
+          }
+        ],
+        "components": {
+          "requestBodies": {
+            "PipelineExecutionRequest": {
+              "description": "Execution request for a pipeline",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/PipelineExecutionObject"
+                  }
+                }
+              }
+            },
+            "ExecutionRequest": {
+              "description": "Execution is the context which holds data related to a specific execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Execution"
+                  }
+                }
+              }
+            },
+            "PipelineRequest": {
+              "description": "Pipeline request",
+              "content": {
+                "application/x-www-form-urlencoded": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "pipelineName": {
+                        "type": "string"
+                      },
+                      "pipelineId": {
+                        "type": "string"
+                      },
+                      "pipelineDescription": {
+                        "type": "object",
+                        "additionalProperties": true
+                      }
+                    }
+                  },
+                  "encoding": {
+                    "pipelineDescription": {
+                      "contentType": "application/x-yaml"
+                    }
+                  }
+                }
+              }
+            },
+            "Observation": {
+              "description": "Observation request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Observation"
+                  }
+                }
+              }
+            },
+            "MediaRequest": {
+              "description": "Observation request",
+              "content": {
+                "image/png": {
+                  "schema": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                },
+                "application/pdf": {
+                  "schema": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                },
+                "text/plain": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "LinkerRequest": {
+              "description": "Linker request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/EntityLinkerConfig"
+                  }
+                }
+              }
+            },
+            "IndexRequest": {
+              "description": "Index creation request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Index"
+                  }
+                }
+              }
+            },
+            "DocumentRequest": {
+              "description": "Document request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/IndexedDocument"
+                  }
+                }
+              }
+            }
+          },
+          "responses": {
+            "ExecutionResponse": {
+              "description": "Response of an execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Execution"
+                  }
+                }
+              }
+            },
+            "ExecutionsResponse": {
+              "description": "Response of an execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Execution"
+                    }
+                  }
+                }
+              }
+            },
+            "PipelineResponse": {
+              "description": "Response of synchronous pipeline execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Pipeline"
+                  }
+                }
+              }
+            },
+            "PipelineDefinitionResponse": {
+              "description": "Pipeline in definition in YAML",
+              "content": {
+                "application/x-yaml": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "PipelineSyncResponse": {
+              "description": "Response of synchronous pipeline execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "executionId": {
+                        "type": "string"
+                      },
+                      "observation": {
+                        "$ref": "#/components/schemas/Observation"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "PipelineDeploymentResponse": {
+              "description": "Response of pipeline deployment",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "pipelineDeploymentnId": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "PipelineAsyncResponse": {
+              "description": "Response of asynchronous pipeline execution",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "executionId": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "MediaResponse": {
+              "description": "Specific media",
+              "content": {
+                "image/*": {
+                  "schema": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                },
+                "application/pdf": {
+                  "schema": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                },
+                "text/plain": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "MediaIdResponse": {
+              "description": "Update media ID",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "mediaId": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "ObservationResponse": {
+              "description": "Observation response",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Observation"
+                  }
+                }
+              }
+            },
+            "LinkerResponse": {
+              "description": "Linker response",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/LinkedDocument"
+                    }
+                  }
+                }
+              }
+            },
+            "DocumentResponse": {
+              "description": "Document response",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/IndexedDocument"
+                  }
+                }
+              }
+            },
+            "TransformerResponse": {
+              "description": "Response of after transformation. The output can be an arbitrary object created by a JSONata\nexpression. It must be deserialized.\n",
+              "content": {
+                "text/plain": {
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "IndexResponse": {
+              "description": "Response of after transformation",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Index"
+                  }
+                }
+              }
+            },
+            "NotFound": {
+              "description": "The specified resource was not found",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Error"
+                  }
+                }
+              }
+            },
+            "Unauthorized": {
+              "description": "Unauthorized",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Error"
+                  }
+                }
+              }
+            }
+          },
+          "parameters": {
+            "PipelineId": {
+              "name": "pipelineId",
+              "in": "path",
+              "description": "ID of the pipeline to execute",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            "DeploymentId": {
+              "name": "deploymentId",
+              "in": "path",
+              "description": "ID of the pipeline deployment",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            "ExecutionId": {
+              "name": "executionId",
+              "in": "path",
+              "description": "ID of an execution",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            "MediaId": {
+              "name": "mediaId",
+              "in": "path",
+              "description": "ID of uploaded media",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            "IndexId": {
+              "name": "indexId",
+              "in": "path",
+              "description": "ID of the index",
+              "required": true,
+              "schema": {
+                "type": "string"
+              },
+              "example": "Warehouse-Index"
+            },
+            "DocumentId": {
+              "name": "documentId",
+              "in": "path",
+              "description": "ID of a document",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            "ExecutionTag": {
+              "name": "tag",
+              "in": "query",
+              "description": "Filter executions by tag",
+              "schema": {
+                "type": "string"
+              }
+            },
+            "IndexLimit": {
+              "name": "limit",
+              "in": "query",
+              "description": "Limits the number of indices on a page",
+              "schema": {
+                "type": "integer"
+              }
+            },
+            "IndexOffset": {
+              "name": "offset",
+              "in": "query",
+              "description": "Specifies the page number of the indices to be displayed",
+              "schema": {
+                "type": "integer"
+              }
+            },
+            "DocumentLimit": {
+              "name": "limit",
+              "in": "query",
+              "description": "Limits the number of documents on a page",
+              "schema": {
+                "type": "integer"
+              }
+            },
+            "DocumentOffset": {
+              "name": "offset",
+              "in": "query",
+              "description": "Specifies the page number of the documents to be displayed",
+              "schema": {
+                "type": "integer"
+              }
+            }
+          },
+          "schemas": {
+            "Pipeline": {
+              "type": "object",
+              "properties": {
+                "pipelineName": {
+                  "type": "string"
+                },
+                "pipelineId": {
+                  "type": "string"
+                },
+                "pipelineDefinitionId": {
+                  "type": "string"
+                },
+                "pipelineDescription": {
+                  "type": "string"
+                }
+              }
+            },
+            "Execution": {
+              "type": "object",
+              "description": "The execution is a stateful environment\nin which media (such as images or PDF files) can be stored an used an inputs for pipelines. The ID\nin the request body is optional (generated if empty) and must be unique.\n",
+              "properties": {
+                "executionId": {
+                  "type": "string",
+                  "description": "ID of the execution"
+                },
+                "tag": {
+                  "type": "string",
+                  "description": "Tag to identify the execution"
+                },
+                "createdAt": {
+                  "type": "string",
+                  "description": "Creation time"
+                },
+                "metaData": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            },
+            "PipelineExecutionObject": {
+              "type": "object",
+              "description": "The execution is a stateful environment\nin which media (such as images or PDF files) can be stored an used an inputs for pipelines. The ID\nin the request body is optional (generated if empty) and must be unique. Nothing will be persisted \nif transient is true. In order to trigger the pipeline either an execution ID containing valid media or base 64 encoded \nmedia under the media property have to be provided.\n",
+              "properties": {
+                "executionId": {
+                  "type": "string",
+                  "description": "ID of the execution"
+                },
+                "tag": {
+                  "type": "string",
+                  "description": "Tag used to identify the resulting execution. Ignored if transient is true."
+                },
+                "transient": {
+                  "type": "boolean",
+                  "description": "Whether to delete all execution data after pipeline completion"
+                },
+                "transform": {
+                  "type": "string"
+                },
+                "media": {
+                  "description": "Array of base 64 encoded media files. Content type will be detected automatically.",
+                  "items": {
+                    "type": "string",
+                    "format": "base64"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "EntityLinkerConfig": {
+              "properties": {
+                "group": {
+                  "items": {
+                    "$ref": "#/components/schemas/MatchGroup"
+                  },
+                  "type": "array"
+                },
+                "document": {
+                  "type": "object",
+                  "additionalProperties": true
+                },
+                "topk": {
+                  "items": {
+                    "$ref": "#/components/schemas/TopKIndexFilter"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object",
+              "title": "Entity Link Request"
+            },
+            "Index": {
+              "type": "object",
+              "properties": {
+                "indexId": {
+                  "type": "string"
+                },
+                "indexSchema": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            },
+            "IndexedDocument": {
+              "type": "object",
+              "properties": {
+                "indexId": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "object",
+                  "additionalProperties": true
+                }
+              }
+            },
+            "Block": {
+              "required": [
+                "text",
+                "geometry"
+              ],
+              "properties": {
+                "text": {
+                  "type": "string"
+                },
+                "geometry": {
+                  "$ref": "#/components/schemas/Geometry"
+                }
+              },
+              "type": "object",
+              "title": "Block"
+            },
+            "BoundingBox": {
+              "required": [
+                "width",
+                "height",
+                "left",
+                "top"
+              ],
+              "properties": {
+                "width": {
+                  "type": "number"
+                },
+                "height": {
+                  "type": "number"
+                },
+                "left": {
+                  "type": "number"
+                },
+                "top": {
+                  "type": "number"
+                }
+              },
+              "type": "object",
+              "title": "Bounding Box"
+            },
+            "Code": {
+              "required": [
+                "id",
+                "entity",
+                "payload",
+                "type"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "entity": {
+                  "$ref": "#/components/schemas/Entity"
+                },
+                "tag": {
+                  "type": "string"
+                },
+                "payload": {
+                  "type": "string",
+                  "format": "binary"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "UPC_A",
+                    "UPC_E",
+                    "EAN_8",
+                    "EAN_13",
+                    "UPC_EAN_EXTENSION",
+                    "CODE_39",
+                    "CODE_93",
+                    "CODE_128",
+                    "CODEBAR",
+                    "ITF",
+                    "QR_CODE",
+                    "DATA_MATRIX",
+                    "AZTEC",
+                    "PDF_417",
+                    "MAXICODE",
+                    "RSS_14",
+                    "RSS_EXPANDED"
+                  ],
+                  "title": "Code Type"
+                }
+              },
+              "type": "object",
+              "title": "Code entity"
+            },
+            "Collection": {
+              "required": [
+                "source"
+              ],
+              "properties": {
+                "source": {
+                  "type": "string",
+                  "enum": [
+                    "ENTITY_TEXT",
+                    "ENTITY_VALUE",
+                    "ENTITY_DATA",
+                    "KEY_VALUE",
+                    "KEY_DATA",
+                    "KEY_TEXT",
+                    "VALUE_TEXT",
+                    "VALUE_VALUE",
+                    "VALUE_DATA",
+                    "TABLE_CELL_ROW_TAG",
+                    "CODE"
+                  ],
+                  "title": "Collection Source"
+                }
+              },
+              "type": "object",
+              "title": "Collection"
+            },
+            "Document": {
+              "properties": {
+                "tables": {
+                  "items": {
+                    "$ref": "#/components/schemas/Table"
+                  },
+                  "type": "array"
+                },
+                "entities": {
+                  "items": {
+                    "$ref": "#/components/schemas/Entity"
+                  },
+                  "type": "array"
+                },
+                "keyValueSet": {
+                  "$ref": "#/components/schemas/KeyValueSet"
+                }
+              },
+              "type": "object",
+              "title": "Document"
+            },
+            "DocumentPage": {
+              "required": [
+                "page",
+                "document"
+              ],
+              "properties": {
+                "page": {
+                  "type": "integer"
+                },
+                "document": {
+                  "$ref": "#/components/schemas/Document"
+                }
+              },
+              "type": "object",
+              "title": "Document page"
+            },
+            "Entity": {
+              "required": [
+                "id",
+                "block",
+                "confidence"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "block": {
+                  "$ref": "#/components/schemas/Block"
+                },
+                "confidence": {
+                  "type": "number"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "STRING",
+                    "NUMBER",
+                    "QUANTITY",
+                    "UNIT",
+                    "DATE",
+                    "PERCENTAGE"
+                  ],
+                  "title": "Entity Type"
+                },
+                "data": {
+                  "$ref": "#/components/schemas/EntityData"
+                },
+                "embedding": {
+                  "items": {
+                    "type": "number"
+                  },
+                  "type": "array"
+                },
+                "similarity": {
+                  "$ref": "#/components/schemas/EntitySimilarity"
+                },
+                "layoutType": {
+                  "type": "string",
+                  "enum": [
+                    "WORD",
+                    "LINE"
+                  ],
+                  "title": "Entity Layout Type"
+                }
+              },
+              "type": "object",
+              "title": "Entity"
+            },
+            "EntityData": {
+              "properties": {
+                "documentId": {
+                  "type": "string"
+                },
+                "textValue": {
+                  "type": "string"
+                },
+                "quantityValue": {
+                  "type": "integer"
+                },
+                "numberValue": {
+                  "type": "number"
+                },
+                "unitValue": {
+                  "type": "string"
+                },
+                "dateValue": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "textData": {
+                  "type": "string"
+                },
+                "quantityData": {
+                  "type": "integer"
+                },
+                "numberData": {
+                  "type": "number"
+                },
+                "unitData": {
+                  "type": "string"
+                },
+                "dateData": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "field": {
+                  "type": "string"
+                },
+                "score": {
+                  "type": "number"
+                },
+                "sourceIndex": {
+                  "type": "string"
+                }
+              },
+              "type": "object",
+              "title": "Entity Data"
+            },
+            "EntityFilter": {
+              "properties": {
+                "tag": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "regExp": {
+                  "type": "string"
+                },
+                "hasData": {
+                  "type": "boolean"
+                },
+                "hasValue": {
+                  "type": "boolean"
+                },
+                "layoutType": {
+                  "type": "string",
+                  "enum": [
+                    "WORD",
+                    "LINE"
+                  ],
+                  "title": "Entity Layout Type"
+                }
+              },
+              "type": "object",
+              "title": "Entity Filter"
+            },
+            "EntitySimilarity": {
+              "required": [
+                "type"
+              ],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "TEXT_SIM",
+                    "NUMBER_DIFF",
+                    "BOOL_SAME"
+                  ],
+                  "title": "Similarity Type"
+                },
+                "cosineSimilarity": {
+                  "type": "number"
+                },
+                "amountDiff": {
+                  "type": "integer"
+                },
+                "numberDiff": {
+                  "type": "number"
+                },
+                "same": {
+                  "type": "boolean"
+                }
+              },
+              "type": "object",
+              "title": "Entity Similarity"
+            },
+            "Geometry": {
+              "required": [
+                "boundingBox"
+              ],
+              "properties": {
+                "polygon": {
+                  "$ref": "#/components/schemas/Polygon"
+                },
+                "boundingBox": {
+                  "$ref": "#/components/schemas/BoundingBox"
+                }
+              },
+              "type": "object",
+              "title": "Geometry"
+            },
+            "ImageContent": {
+              "required": [
+                "id",
+                "mediaId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "mediaId": {
+                  "type": "string"
+                },
+                "documentPages": {
+                  "items": {
+                    "$ref": "#/components/schemas/DocumentPage"
+                  },
+                  "type": "array"
+                },
+                "imageHash": {
+                  "type": "string"
+                },
+                "codes": {
+                  "items": {
+                    "$ref": "#/components/schemas/Code"
+                  },
+                  "type": "array"
+                },
+                "metaData": {
+                  "$ref": "#/components/schemas/ImageMetaData"
+                },
+                "label": {
+                  "$ref": "#/components/schemas/Label"
+                }
+              },
+              "type": "object",
+              "title": "Image Content"
+            },
+            "TextContent": {
+              "required": [
+                "id",
+                "mediaId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "mediaId": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "label": {
+                  "$ref": "#/components/schemas/Label"
+                }
+              },
+              "type": "object",
+              "title": "Text Content"
+            },
+            "ImageMetaData": {
+              "required": [
+                "width",
+                "height"
+              ],
+              "properties": {
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "type": "object",
+              "title": "Image Meta Data"
+            },
+            "Observation": {
+              "required": [
+                "executionId"
+              ],
+              "properties": {
+                "executionId": {
+                  "type": "string"
+                },
+                "imageContents": {
+                  "items": {
+                    "$ref": "#/components/schemas/ImageContent"
+                  },
+                  "type": "array"
+                },
+                "textContents": {
+                  "items": {
+                    "$ref": "#/components/schemas/TextContent"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object",
+              "title": "Execution Observation"
+            },
+            "KeyValuePair": {
+              "required": [
+                "key"
+              ],
+              "properties": {
+                "key": {
+                  "$ref": "#/components/schemas/Entity"
+                },
+                "entityValue": {
+                  "$ref": "#/components/schemas/Entity"
+                },
+                "keyValueSetValue": {
+                  "$ref": "#/components/schemas/KeyValueSet"
+                },
+                "tableValue": {
+                  "$ref": "#/components/schemas/Table"
+                },
+                "tag": {
+                  "type": "string"
+                }
+              },
+              "type": "object",
+              "title": "Key Value Pair"
+            },
+            "KeyValueSet": {
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "tag": {
+                  "type": "string"
+                },
+                "pairs": {
+                  "items": {
+                    "$ref": "#/components/schemas/KeyValuePair"
+                  },
+                  "type": "array"
+                },
+                "entity": {
+                  "$ref": "#/components/schemas/Entity"
+                }
+              },
+              "type": "object",
+              "title": "Key Value Set"
+            },
+            "Label": {
+              "required": [
+                "index",
+                "name",
+                "confidence"
+              ],
+              "properties": {
+                "index": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "confidence": {
+                  "type": "number"
+                }
+              },
+              "type": "object",
+              "title": "Label"
+            },
+            "MatchField": {
+              "required": [
+                "fieldName",
+                "clause",
+                "collection",
+                "mode"
+              ],
+              "properties": {
+                "fieldName": {
+                  "type": "string"
+                },
+                "clause": {
+                  "type": "string",
+                  "enum": [
+                    "MUST",
+                    "MUST_NOT",
+                    "SHOULD",
+                    "FILTER"
+                  ],
+                  "title": "Bool Clause"
+                },
+                "fuzziness": {
+                  "type": "integer"
+                },
+                "auto": {
+                  "type": "string"
+                },
+                "filter": {
+                  "$ref": "#/components/schemas/EntityFilter"
+                },
+                "collection": {
+                  "$ref": "#/components/schemas/Collection"
+                },
+                "threshold": {
+                  "type": "number"
+                },
+                "num_results": {
+                  "type": "integer"
+                },
+                "mode": {
+                  "type": "string",
+                  "enum": [
+                    "SEARCH",
+                    "COMPARE",
+                    "SEARCH_COMPARE"
+                  ],
+                  "title": "Field Mode"
+                },
+                "dimension": {
+                  "type": "string",
+                  "enum": [
+                    "EMPTY",
+                    "ENTITY",
+                    "TABLE_ROW"
+                  ],
+                  "title": "Query Dimension"
+                },
+                "analyzer": {
+                  "type": "string"
+                }
+              },
+              "type": "object",
+              "title": "Match Field"
+            },
+            "MatchGroup": {
+              "required": [
+                "tag",
+                "index"
+              ],
+              "properties": {
+                "tag": {
+                  "type": "string"
+                },
+                "fields": {
+                  "items": {
+                    "$ref": "#/components/schemas/MatchField"
+                  },
+                  "type": "array"
+                },
+                "index": {
+                  "type": "string"
+                }
+              },
+              "type": "object",
+              "title": "Match Group"
+            },
+            "Point": {
+              "required": [
+                "x",
+                "y"
+              ],
+              "properties": {
+                "x": {
+                  "type": "number"
+                },
+                "y": {
+                  "type": "number"
+                }
+              },
+              "type": "object",
+              "title": "Point"
+            },
+            "Polygon": {
+              "properties": {
+                "points": {
+                  "items": {
+                    "$ref": "#/components/schemas/Point"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object",
+              "title": "Polygon"
+            },
+            "Table": {
+              "required": [
+                "id",
+                "entity"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "entity": {
+                  "$ref": "#/components/schemas/Entity"
+                },
+                "tag": {
+                  "type": "string"
+                },
+                "headers": {
+                  "items": {
+                    "$ref": "#/components/schemas/Entity"
+                  },
+                  "type": "array"
+                },
+                "rows": {
+                  "items": {
+                    "$ref": "#/components/schemas/KeyValueSet"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object",
+              "title": "Table"
+            },
+            "TopKIndexFilter": {
+              "required": [
+                "index",
+                "topk"
+              ],
+              "properties": {
+                "index": {
+                  "type": "string"
+                },
+                "topk": {
+                  "type": "integer"
+                }
+              },
+              "type": "object",
+              "title": "Top K Index Filter"
+            },
+            "LinkedDocument": {
+              "required": [
+                "tag"
+              ],
+              "properties": {
+                "document": {
+                  "additionalProperties": true,
+                  "type": "object"
+                },
+                "fields": {
+                  "items": {
+                    "$ref": "#/components/schemas/LinkedField"
+                  },
+                  "type": "array"
+                },
+                "tag": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true,
+              "type": "object",
+              "title": "Linked Document"
+            },
+            "Error": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "message"
+              ]
+            },
+            "LinkedField": {
+              "required": [
+                "fieldName"
+              ],
+              "properties": {
+                "documentId": {
+                  "type": "string"
+                },
+                "index": {
+                  "type": "string"
+                },
+                "score": {
+                  "type": "number"
+                },
+                "fieldName": {
+                  "type": "string"
+                },
+                "textValue": {
+                  "type": "string"
+                },
+                "quantityValue": {
+                  "type": "integer"
+                },
+                "numberValue": {
+                  "type": "number"
+                },
+                "unitValue": {
+                  "type": "string"
+                },
+                "dateValue": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "textData": {
+                  "type": "string"
+                },
+                "quantityData": {
+                  "type": "integer"
+                },
+                "numberData": {
+                  "type": "number"
+                },
+                "unitData": {
+                  "type": "string"
+                },
+                "dateData": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "cosineSimilarity": {
+                  "type": "number"
+                },
+                "quantityDiff": {
+                  "type": "integer"
+                },
+                "numberDiff": {
+                  "type": "number"
+                },
+                "same": {
+                  "type": "boolean"
+                },
+                "entityId": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true,
+              "type": "object",
+              "title": "Linked Field"
+            }
+          },
+          "securitySchemes": {
+            "api_key": {
+              "type": "apiKey",
+              "name": "api_key",
+              "in": "header"
+            }
+          }
+        }
+      }
+    }
+  },
+  "docusaurus-theme-classic": {},
+  "docusaurus-theme-redoc": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}
