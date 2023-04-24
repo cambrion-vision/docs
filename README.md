@@ -1,6 +1,12 @@
-# Website
+<p align="center">
+  <a href="http://cambrion.de/" target="blank"><img src="https://github.com/cambrion-vision/assets/blob/master/Logo_square.png" height="320" alt="Cambrion Logo" /></a>
+</p>
+  <p align="center">Next generation document AI</p>
+ 
+---
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+# Cambrion API Docs
+Main repository of the Cambrion API Documentation.
 
 ### Installation
 
