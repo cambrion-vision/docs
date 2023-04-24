@@ -1,5 +1,5 @@
 ---
-title: Markdown page example
+title: Cambrion API Documentation
 ---
 
 # Welcome to the Cambrion API documentation page

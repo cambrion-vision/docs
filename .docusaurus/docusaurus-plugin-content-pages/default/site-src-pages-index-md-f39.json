@@ -1,10 +1,10 @@
 {
   "type": "mdx",
-  "permalink": "/docs/",
+  "permalink": "/",
   "source": "@site/src/pages/index.md",
-  "title": "Markdown page example",
+  "title": "Cambrion API Documentation",
   "description": "Welcome to this introduction notebook for the Cambrion API. In the following tutorial we introduce the core functionalities of the API and demonstrate how to use it to extract information from complex documents.",
   "frontMatter": {
-    "title": "Markdown page example"
+    "title": "Cambrion API Documentation"
   }
 }

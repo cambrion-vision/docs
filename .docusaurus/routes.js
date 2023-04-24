@@ -3,48 +3,78 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/docs/api',
-    component: ComponentCreator('/docs/api', 'b71'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', 'fa7'),
     exact: true
   },
   {
-    path: '/docs/markdown-page',
-    component: ComponentCreator('/docs/markdown-page', '566'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', 'dfd'),
     exact: true
   },
   {
-    path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', '894'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'f27'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', '2ba'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '2cd'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '153'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '3fa'),
+    exact: true
+  },
+  {
+    path: '/api',
+    component: ComponentCreator('/api', 'bd5'),
+    exact: true
+  },
+  {
+    path: '/docs',
+    component: ComponentCreator('/docs', '1e9'),
     routes: [
       {
-        path: '/docs/docs/category/workflows',
-        component: ComponentCreator('/docs/docs/category/workflows', '03d'),
+        path: '/docs/category/workflows',
+        component: ComponentCreator('/docs/category/workflows', '2c4'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/docs/docs/intro',
-        component: ComponentCreator('/docs/docs/intro', '3b5'),
+        path: '/docs/intro',
+        component: ComponentCreator('/docs/intro', '5ba'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/docs/docs/workflows/executions',
-        component: ComponentCreator('/docs/docs/workflows/executions', 'aeb'),
+        path: '/docs/workflows/executions',
+        component: ComponentCreator('/docs/workflows/executions', '81b'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/docs/docs/workflows/pipeline',
-        component: ComponentCreator('/docs/docs/workflows/pipeline', '5d5'),
+        path: '/docs/workflows/pipeline',
+        component: ComponentCreator('/docs/workflows/pipeline', 'e9a'),
         exact: true,
         sidebar: "defaultSidebar"
       }
     ]
   },
   {
-    path: '/docs/',
-    component: ComponentCreator('/docs/', 'efd'),
+    path: '/',
+    component: ComponentCreator('/', 'a36'),
     exact: true
   },
   {

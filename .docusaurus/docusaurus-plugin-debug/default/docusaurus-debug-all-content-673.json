@@ -9,8 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/docs/docs",
-          "tagsPath": "/docs/docs/tags",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
           "contentPath": "/home/daniel/Cambrion/repos/docs/docs",
@@ -24,7 +24,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/docs/docs/intro",
+              "permalink": "/docs/intro",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -36,7 +36,7 @@
               "sidebar": "defaultSidebar",
               "next": {
                 "title": "Workflows",
-                "permalink": "/docs/docs/category/workflows"
+                "permalink": "/docs/category/workflows"
               }
             },
             {
@@ -47,7 +47,7 @@
               "source": "@site/docs/workflows/executions.md",
               "sourceDirName": "workflows",
               "slug": "/workflows/executions",
-              "permalink": "/docs/docs/workflows/executions",
+              "permalink": "/docs/workflows/executions",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -59,7 +59,7 @@
               "sidebar": "defaultSidebar",
               "previous": {
                 "title": "Call a pipeline directly",
-                "permalink": "/docs/docs/workflows/pipeline"
+                "permalink": "/docs/workflows/pipeline"
               }
             },
             {
@@ -70,7 +70,7 @@
               "source": "@site/docs/workflows/pipeline.md",
               "sourceDirName": "workflows",
               "slug": "/workflows/pipeline",
-              "permalink": "/docs/docs/workflows/pipeline",
+              "permalink": "/docs/workflows/pipeline",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -82,11 +82,11 @@
               "sidebar": "defaultSidebar",
               "previous": {
                 "title": "Workflows",
-                "permalink": "/docs/docs/category/workflows"
+                "permalink": "/docs/category/workflows"
               },
               "next": {
                 "title": "Use an execution",
-                "permalink": "/docs/docs/workflows/executions"
+                "permalink": "/docs/workflows/executions"
               }
             }
           ],
@@ -116,7 +116,7 @@
                   "type": "generated-index",
                   "description": "Typical Cambrion API workflows.",
                   "slug": "/category/workflows",
-                  "permalink": "/docs/docs/category/workflows"
+                  "permalink": "/docs/category/workflows"
                 }
               }
             ]
@@ -131,7 +131,7 @@
       "blogPosts": [],
       "blogListPaginated": [],
       "blogTags": {},
-      "blogTagsListPath": "/docs/blog/tags",
+      "blogTagsListPath": "/blog/tags",
       "blogTagsPaginated": []
     }
   },
@@ -139,22 +139,12 @@
     "default": [
       {
         "type": "mdx",
-        "permalink": "/docs/",
+        "permalink": "/",
         "source": "@site/src/pages/index.md",
-        "title": "Markdown page example",
+        "title": "Cambrion API Documentation",
         "description": "Welcome to this introduction notebook for the Cambrion API. In the following tutorial we introduce the core functionalities of the API and demonstrate how to use it to extract information from complex documents.",
         "frontMatter": {
-          "title": "Markdown page example"
-        }
-      },
-      {
-        "type": "mdx",
-        "permalink": "/docs/markdown-page",
-        "source": "@site/src/pages/markdown-page.md",
-        "title": "Markdown page example",
-        "description": "You don't need React to write simple standalone pages.",
-        "frontMatter": {
-          "title": "Markdown page example"
+          "title": "Cambrion API Documentation"
         }
       }
     ]

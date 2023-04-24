@@ -8,7 +8,7 @@ export default {
   "tagline": "Cambrion API Guides and API reference",
   "favicon": "img/favicon-32x32.png",
   "url": "https://cambrion.net",
-  "baseUrl": "/docs/",
+  "baseUrl": "/",
   "organizationName": "cambrion-vision",
   "projectName": "docs",
   "trailingSlash": false,
