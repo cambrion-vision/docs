@@ -12,7 +12,7 @@
       {
         "type": "link",
         "label": "Introduction",
-        "href": "/docs/intro",
+        "href": "/docs/docs/intro",
         "docId": "intro"
       },
       {
@@ -24,17 +24,17 @@
           {
             "type": "link",
             "label": "Call a pipeline directly",
-            "href": "/docs/workflows/pipeline",
+            "href": "/docs/docs/workflows/pipeline",
             "docId": "workflows/pipeline"
           },
           {
             "type": "link",
             "label": "Use an execution",
-            "href": "/docs/workflows/executions",
+            "href": "/docs/docs/workflows/executions",
             "docId": "workflows/executions"
           }
         ],
-        "href": "/docs/category/workflows"
+        "href": "/docs/docs/category/workflows"
       }
     ]
   },

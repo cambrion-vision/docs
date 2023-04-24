@@ -6,7 +6,7 @@
   "source": "@site/docs/workflows/pipeline.md",
   "sourceDirName": "workflows",
   "slug": "/workflows/pipeline",
-  "permalink": "/docs/workflows/pipeline",
+  "permalink": "/docs/docs/workflows/pipeline",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,10 +18,10 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Workflows",
-    "permalink": "/docs/category/workflows"
+    "permalink": "/docs/docs/category/workflows"
   },
   "next": {
     "title": "Use an execution",
-    "permalink": "/docs/workflows/executions"
+    "permalink": "/docs/docs/workflows/executions"
   }
 }

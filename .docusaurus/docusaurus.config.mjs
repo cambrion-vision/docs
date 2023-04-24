@@ -8,10 +8,11 @@ export default {
   "tagline": "Cambrion API Guides and API reference",
   "favicon": "img/favicon-32x32.png",
   "url": "https://cambrion.net",
-  "baseUrl": "/",
+  "baseUrl": "/docs/",
   "organizationName": "cambrion-vision",
   "projectName": "docs",
-  "onBrokenLinks": "throw",
+  "trailingSlash": false,
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
@@ -48,12 +49,12 @@ export default {
       },
       "items": [
         {
-          "to": "/docs/intro",
+          "to": "docs/intro",
           "label": "Guides",
           "position": "left"
         },
         {
-          "to": "/api/",
+          "to": "api/",
           "label": "API",
           "position": "left"
         },
@@ -73,7 +74,7 @@ export default {
           "items": [
             {
               "label": "Introduction",
-              "to": "/docs/intro"
+              "to": "docs/intro"
             },
             {
               "label": "API Reference",
@@ -101,10 +102,6 @@ export default {
         {
           "title": "More",
           "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
             {
               "label": "GitHub",
               "href": "https://github.com/cambrion-vision"

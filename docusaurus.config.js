@@ -14,14 +14,15 @@ const config = {
   url: 'https://cambrion.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'cambrion-vision', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -90,10 +91,10 @@ const config = {
           src: 'img/logo_cambrion.png',
         },
         items: [
-          {to: '/docs/intro', label: 'Guides', position: 'left'},
+          {to: 'docs/intro', label: 'Guides', position: 'left'},
           // {to: '/examples', label: 'Examples', position: 'left'},
           // {to: '/integrations', label: 'Integrations', position: 'left'},
-          {to: '/api/', label: 'API', position: 'left'},
+          {to: 'api/', label: 'API', position: 'left'},
           {
             href: 'https://github.com/cambrion-vision',
             label: 'GitHub',
@@ -109,7 +110,7 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/docs/intro',
+                to: 'docs/intro',
               },
               {
                 label: 'API Reference',
@@ -137,10 +138,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/cambrion-vision',

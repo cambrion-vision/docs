@@ -1,4 +1,108 @@
 {
+  "docusaurus-theme-redoc": {
+    "theme-redoc": {
+      "lightTheme": {
+        "typography": {
+          "fontFamily": "var(--ifm-font-family-base)",
+          "fontSize": "var(--ifm-font-size-base)",
+          "lineHeight": "var(--ifm-line-height-base)",
+          "fontWeightLight": "var(--ifm-font-weight-light)",
+          "fontWeightRegular": "var(--ifm-font-weight-base)",
+          "fontWeightBold": "var(--ifm-font-weight-bold)",
+          "headings": {
+            "fontFamily": "var(--ifm-heading-font-family)",
+            "fontWeight": "var(--ifm-heading-font-weight)",
+            "lineHeight": "var(--ifm-heading-line-height)"
+          },
+          "code": {
+            "fontFamily": "var(--ifm-font-family-monospace)",
+            "lineHeight": "var(--ifm-pre-line-height)"
+          }
+        },
+        "sidebar": {
+          "width": "300px",
+          "backgroundColor": "#ffffff"
+        },
+        "rightPanel": {
+          "backgroundColor": "#303846"
+        },
+        "colors": {
+          "primary": {
+            "main": "#25c2a0"
+          }
+        },
+        "theme": {
+          "prism": {
+            "additionalLanguages": [
+              "scala"
+            ]
+          }
+        }
+      },
+      "darkTheme": {
+        "typography": {
+          "fontFamily": "var(--ifm-font-family-base)",
+          "fontSize": "var(--ifm-font-size-base)",
+          "lineHeight": "var(--ifm-line-height-base)",
+          "fontWeightLight": "var(--ifm-font-weight-light)",
+          "fontWeightRegular": "var(--ifm-font-weight-base)",
+          "fontWeightBold": "var(--ifm-font-weight-bold)",
+          "headings": {
+            "fontFamily": "var(--ifm-heading-font-family)",
+            "fontWeight": "var(--ifm-heading-font-weight)",
+            "lineHeight": "var(--ifm-heading-line-height)"
+          },
+          "code": {
+            "fontFamily": "var(--ifm-font-family-monospace)",
+            "lineHeight": "var(--ifm-pre-line-height)"
+          }
+        },
+        "sidebar": {
+          "width": "300px",
+          "backgroundColor": "rgb(24, 25, 26)",
+          "textColor": "#f5f6f7",
+          "arrow": {
+            "color": "#f5f6f7"
+          }
+        },
+        "colors": {
+          "text": {
+            "primary": "#f5f6f7",
+            "secondary": "rgba(255, 255, 255, 1)"
+          },
+          "gray": {
+            "50": "#FAFAFA",
+            "100": "#F5F5F5"
+          },
+          "border": {
+            "dark": "#ffffff",
+            "light": "rgba(0,0,0, 0.1)"
+          },
+          "primary": {
+            "main": "#25c2a0"
+          }
+        },
+        "schema": {
+          "nestedBackground": "rgb(24, 25, 26)",
+          "typeNameColor": "rgba(255, 255, 255, 1)",
+          "typeTitleColor": "rgba(255, 255, 255, 1)"
+        },
+        "theme": {
+          "prism": {
+            "additionalLanguages": [
+              "scala"
+            ]
+          }
+        }
+      },
+      "options": {
+        "scrollYOffset": "nav.navbar",
+        "expandSingleSchemaField": true,
+        "menuToggle": true,
+        "suppressWarnings": true
+      }
+    }
+  },
   "docusaurus-plugin-redoc": {
     "plugin-redoc-0": {
       "url": "https://raw.githubusercontent.com/cambrion-vision/api-sepc/main/cambrion_api.yaml",
@@ -2138,139 +2242,35 @@
       }
     }
   },
-  "docusaurus-theme-redoc": {
-    "theme-redoc": {
-      "lightTheme": {
-        "typography": {
-          "fontFamily": "var(--ifm-font-family-base)",
-          "fontSize": "var(--ifm-font-size-base)",
-          "lineHeight": "var(--ifm-line-height-base)",
-          "fontWeightLight": "var(--ifm-font-weight-light)",
-          "fontWeightRegular": "var(--ifm-font-weight-base)",
-          "fontWeightBold": "var(--ifm-font-weight-bold)",
-          "headings": {
-            "fontFamily": "var(--ifm-heading-font-family)",
-            "fontWeight": "var(--ifm-heading-font-weight)",
-            "lineHeight": "var(--ifm-heading-line-height)"
-          },
-          "code": {
-            "fontFamily": "var(--ifm-font-family-monospace)",
-            "lineHeight": "var(--ifm-pre-line-height)"
-          }
-        },
-        "sidebar": {
-          "width": "300px",
-          "backgroundColor": "#ffffff"
-        },
-        "rightPanel": {
-          "backgroundColor": "#303846"
-        },
-        "colors": {
-          "primary": {
-            "main": "#25c2a0"
-          }
-        },
-        "theme": {
-          "prism": {
-            "additionalLanguages": [
-              "scala"
-            ]
-          }
-        }
-      },
-      "darkTheme": {
-        "typography": {
-          "fontFamily": "var(--ifm-font-family-base)",
-          "fontSize": "var(--ifm-font-size-base)",
-          "lineHeight": "var(--ifm-line-height-base)",
-          "fontWeightLight": "var(--ifm-font-weight-light)",
-          "fontWeightRegular": "var(--ifm-font-weight-base)",
-          "fontWeightBold": "var(--ifm-font-weight-bold)",
-          "headings": {
-            "fontFamily": "var(--ifm-heading-font-family)",
-            "fontWeight": "var(--ifm-heading-font-weight)",
-            "lineHeight": "var(--ifm-heading-line-height)"
-          },
-          "code": {
-            "fontFamily": "var(--ifm-font-family-monospace)",
-            "lineHeight": "var(--ifm-pre-line-height)"
-          }
-        },
-        "sidebar": {
-          "width": "300px",
-          "backgroundColor": "rgb(24, 25, 26)",
-          "textColor": "#f5f6f7",
-          "arrow": {
-            "color": "#f5f6f7"
-          }
-        },
-        "colors": {
-          "text": {
-            "primary": "#f5f6f7",
-            "secondary": "rgba(255, 255, 255, 1)"
-          },
-          "gray": {
-            "50": "#FAFAFA",
-            "100": "#F5F5F5"
-          },
-          "border": {
-            "dark": "#ffffff",
-            "light": "rgba(0,0,0, 0.1)"
-          },
-          "primary": {
-            "main": "#25c2a0"
-          }
-        },
-        "schema": {
-          "nestedBackground": "rgb(24, 25, 26)",
-          "typeNameColor": "rgba(255, 255, 255, 1)",
-          "typeTitleColor": "rgba(255, 255, 255, 1)"
-        },
-        "theme": {
-          "prism": {
-            "additionalLanguages": [
-              "scala"
-            ]
-          }
-        }
-      },
-      "options": {
-        "scrollYOffset": "nav.navbar",
-        "expandSingleSchemaField": true,
-        "menuToggle": true,
-        "suppressWarnings": true
-      }
-    }
-  },
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/docs/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
+          "path": "/docs/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/docs/docs/intro",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "workflows/executions",
-              "path": "/docs/workflows/executions",
+              "path": "/docs/docs/workflows/executions",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "workflows/pipeline",
-              "path": "/docs/workflows/pipeline",
+              "path": "/docs/docs/workflows/pipeline",
               "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/workflows",
-              "path": "/docs/category/workflows",
+              "path": "/docs/docs/category/workflows",
               "sidebar": "defaultSidebar"
             }
           ],
@@ -2278,7 +2278,7 @@
           "sidebars": {
             "defaultSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/docs/docs/intro",
                 "label": "intro"
               }
             }

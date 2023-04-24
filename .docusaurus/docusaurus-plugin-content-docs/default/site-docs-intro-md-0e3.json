@@ -6,7 +6,7 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/docs/docs/intro",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,6 +18,6 @@
   "sidebar": "defaultSidebar",
   "next": {
     "title": "Workflows",
-    "permalink": "/docs/category/workflows"
+    "permalink": "/docs/docs/category/workflows"
   }
 }

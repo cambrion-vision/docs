@@ -6,7 +6,7 @@
   "source": "@site/docs/workflows/executions.md",
   "sourceDirName": "workflows",
   "slug": "/workflows/executions",
-  "permalink": "/docs/workflows/executions",
+  "permalink": "/docs/docs/workflows/executions",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -18,6 +18,6 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "Call a pipeline directly",
-    "permalink": "/docs/workflows/pipeline"
+    "permalink": "/docs/docs/workflows/pipeline"
   }
 }
