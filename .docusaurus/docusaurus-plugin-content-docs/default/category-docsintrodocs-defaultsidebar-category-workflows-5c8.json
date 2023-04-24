@@ -1,0 +1,16 @@
+{
+  "title": "Workflows",
+  "description": "Typical Cambrion API workflows.",
+  "slug": "/category/workflows",
+  "permalink": "/docs/intro/docs/category/workflows",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/intro/docs/intro"
+    },
+    "next": {
+      "title": "Call a pipeline directly",
+      "permalink": "/docs/intro/docs/workflows/pipeline"
+    }
+  }
+}

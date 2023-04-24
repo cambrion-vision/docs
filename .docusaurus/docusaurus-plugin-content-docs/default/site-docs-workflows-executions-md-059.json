@@ -1,0 +1,23 @@
+{
+  "unversionedId": "workflows/executions",
+  "id": "workflows/executions",
+  "title": "Use an execution",
+  "description": "Directly call a pipeline",
+  "source": "@site/docs/workflows/executions.md",
+  "sourceDirName": "workflows",
+  "slug": "/workflows/executions",
+  "permalink": "/docs/workflows/executions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "description": "Directly call a pipeline",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Call a pipeline directly",
+    "permalink": "/docs/workflows/pipeline"
+  }
+}

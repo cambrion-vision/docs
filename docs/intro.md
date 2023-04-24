@@ -1,47 +1,37 @@
 ---
+description: This is the guide
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to this introduction notebook for the Cambrion API. In the following tutorial we introduce the core functionalities of the API and demonstrate how to use it to extract information from complex documents. 
 
-## Getting Started
+## Executions
 
-Get started by **creating a new site**.
+An execution represents a context that allows to manage and store multiple media files. At some point later in time these can be used as input for a pipeline to be processed in one single batch. The results of the pipeline will also be stored in the execution as an **observation**. As all the media files in an execution are stored in database it can also be used as a document archive.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Additionally an execution can be associated with arbitrary meta data. This meta data can be used to associate business objects with executions. Further a tag can be assigned to each execution. A tag can be used to filter executions belonging to certain class of process (e.g. distinction between import and export) when listing executions. Each execution also has an ID that can be set. This can be used to directly access executions by ID.
 
-### What you'll need
+An example is a task list where each task involves taking one or more images of a document that contains information that needs to be bundled together. When listing executions each execution belongs to a task.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Pipelines
 
-## Generate a new site
+A pipeline is sequence of operations performed on the media files uploaded to an execution. A pipeline can also be run by just supplying it the media files in the request. In that case no execution is created.
 
-Generate a new Docusaurus site using the **classic template**.
+#### Observation
 
-The classic template will automatically be added to your project after you run the command:
+The results of a pipeline are stored in object called observation. An observation is a complex data structure that models content of an image in a way that allows maximum flexibility. It contains a lot of information that can be used process the data further or allows visualization of the results. The exact depends on the definition of the pipeline and the undlying model(s). 
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+An observation can contain:
+* All the text fragments recognized by the pipeline
+* Labels for text fragments that have been classified
+* Scores that correspond to uncertainties
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+#### Transforms
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Sometimes an observation can be too complex and overwhelming. To mitigate that we introduced transforms. A transform is a simple statement specified in JSONata (https://jsonata.org).
 
-## Start your site
+## Linker
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+The linker allows you to link detected entities to data stored in an index.

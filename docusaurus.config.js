@@ -6,20 +6,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Cambrion API Docs',
+  tagline: 'Cambrion API Guides and API reference',
+  favicon: 'img/favicon-32x32.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://cambrion.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'cambrion-vision', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,14 +64,15 @@ const config = {
         // Plugin Options for loading OpenAPI files
         specs: [
           {
-            spec: 'openapi/cambrion_api.yaml',
+            spec: 'https://raw.githubusercontent.com/cambrion-vision/api-sepc/main/cambrion_api.yaml',
             route: '/api/',
           },
         ],
         // Theme Options for modifying how redoc renders them
         theme: {
           // Change with your site colors
-          primaryColor: '#2A93A7',
+          // primaryColor: '#2A93A7',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
@@ -89,12 +90,12 @@ const config = {
           src: 'img/logo_cambrion.png',
         },
         items: [
-          {to: '/guides', label: 'Guides', position: 'left'},
-          {to: '/examples', label: 'Examples', position: 'left'},
-          {to: '/integrations', label: 'Integrations', position: 'left'},
+          {to: '/docs/intro', label: 'Guides', position: 'left'},
+          // {to: '/examples', label: 'Examples', position: 'left'},
+          // {to: '/integrations', label: 'Integrations', position: 'left'},
           {to: '/api/', label: 'API', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/cambrion-vision',
             label: 'GitHub',
             position: 'right',
           },
@@ -107,8 +108,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
+              },
+              {
+                label: 'API Reference',
+                to: '/api',
               },
             ],
           },
@@ -138,12 +143,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/cambrion-vision',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Cambrion Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

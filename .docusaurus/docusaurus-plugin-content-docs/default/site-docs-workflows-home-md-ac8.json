@@ -1,0 +1,26 @@
+{
+  "unversionedId": "workflows/home",
+  "id": "workflows/home",
+  "title": "Guides",
+  "description": "Directly call a pipeline",
+  "source": "@site/docs/workflows/home.md",
+  "sourceDirName": "workflows",
+  "slug": "/workflows/home",
+  "permalink": "/docs/workflows/home",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Directly call a pipeline",
+    "position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Workflows",
+    "permalink": "/docs/category/workflows"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "guides/test",
+  "id": "guides/test",
+  "title": "test",
+  "description": "fdfdds",
+  "source": "@site/docs/guides/test.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/test",
+  "permalink": "/docs/guides/test",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

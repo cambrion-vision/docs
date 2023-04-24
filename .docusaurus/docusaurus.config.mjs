@@ -4,13 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
-  "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
+  "title": "Cambrion API Docs",
+  "tagline": "Cambrion API Guides and API reference",
+  "favicon": "img/favicon-32x32.png",
+  "url": "https://cambrion.net",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "cambrion-vision",
+  "projectName": "docs",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -28,12 +28,12 @@ export default {
       {
         "specs": [
           {
-            "spec": "openapi/cambrion_api.yaml",
+            "spec": "https://raw.githubusercontent.com/cambrion-vision/api-sepc/main/cambrion_api.yaml",
             "route": "/api/"
           }
         ],
         "theme": {
-          "primaryColor": "#2A93A7"
+          "customCss": "/home/daniel/Cambrion/repos/docs/src/css/custom.css"
         }
       }
     ]
@@ -48,18 +48,8 @@ export default {
       },
       "items": [
         {
-          "to": "/guides",
+          "to": "/docs/intro",
           "label": "Guides",
-          "position": "left"
-        },
-        {
-          "to": "/examples",
-          "label": "Examples",
-          "position": "left"
-        },
-        {
-          "to": "/integrations",
-          "label": "Integrations",
           "position": "left"
         },
         {
@@ -68,7 +58,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/cambrion-vision",
           "label": "GitHub",
           "position": "right"
         }
@@ -82,8 +72,12 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Introduction",
               "to": "/docs/intro"
+            },
+            {
+              "label": "API Reference",
+              "to": "/api"
             }
           ]
         },
@@ -113,12 +107,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/cambrion-vision"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2023 Cambrion Built with Docusaurus."
     },
     "prism": {
       "theme": {

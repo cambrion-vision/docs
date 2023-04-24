@@ -1,0 +1,21 @@
+{
+  "unversionedId": "guides",
+  "id": "guides",
+  "title": "Guides",
+  "description": "This is the guide",
+  "source": "@site/docs/guides.md",
+  "sourceDirName": ".",
+  "slug": "/guides",
+  "permalink": "/docs/guides",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "This is the guide"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Guides",
+    "permalink": "/docs/guides/home"
+  }
+}

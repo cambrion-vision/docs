@@ -1,0 +1,25 @@
+{
+  "unversionedId": "dsads",
+  "id": "dsads",
+  "title": "Guides",
+  "description": "This is the guide",
+  "source": "@site/docs/dsads.md",
+  "sourceDirName": ".",
+  "slug": "/dsads",
+  "permalink": "/docs/dsads",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "This is the guide"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "Guides",
+    "permalink": "/docs/guides/home"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "guides/home",
+  "id": "guides/home",
+  "title": "Guides",
+  "description": "Directly call a pipeline",
+  "source": "@site/docs/guides/home.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/home",
+  "permalink": "/docs/guides/home",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Directly call a pipeline",
+    "position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Workflows",
+    "permalink": "/docs/category/workflows"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  }
+}

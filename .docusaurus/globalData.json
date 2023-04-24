@@ -1,113 +1,9 @@
 {
-  "docusaurus-theme-redoc": {
-    "theme-redoc": {
-      "lightTheme": {
-        "typography": {
-          "fontFamily": "var(--ifm-font-family-base)",
-          "fontSize": "var(--ifm-font-size-base)",
-          "lineHeight": "var(--ifm-line-height-base)",
-          "fontWeightLight": "var(--ifm-font-weight-light)",
-          "fontWeightRegular": "var(--ifm-font-weight-base)",
-          "fontWeightBold": "var(--ifm-font-weight-bold)",
-          "headings": {
-            "fontFamily": "var(--ifm-heading-font-family)",
-            "fontWeight": "var(--ifm-heading-font-weight)",
-            "lineHeight": "var(--ifm-heading-line-height)"
-          },
-          "code": {
-            "fontFamily": "var(--ifm-font-family-monospace)",
-            "lineHeight": "var(--ifm-pre-line-height)"
-          }
-        },
-        "sidebar": {
-          "width": "300px",
-          "backgroundColor": "#ffffff"
-        },
-        "rightPanel": {
-          "backgroundColor": "#303846"
-        },
-        "colors": {
-          "primary": {
-            "main": "#2A93A7"
-          }
-        },
-        "theme": {
-          "prism": {
-            "additionalLanguages": [
-              "scala"
-            ]
-          }
-        }
-      },
-      "darkTheme": {
-        "typography": {
-          "fontFamily": "var(--ifm-font-family-base)",
-          "fontSize": "var(--ifm-font-size-base)",
-          "lineHeight": "var(--ifm-line-height-base)",
-          "fontWeightLight": "var(--ifm-font-weight-light)",
-          "fontWeightRegular": "var(--ifm-font-weight-base)",
-          "fontWeightBold": "var(--ifm-font-weight-bold)",
-          "headings": {
-            "fontFamily": "var(--ifm-heading-font-family)",
-            "fontWeight": "var(--ifm-heading-font-weight)",
-            "lineHeight": "var(--ifm-heading-line-height)"
-          },
-          "code": {
-            "fontFamily": "var(--ifm-font-family-monospace)",
-            "lineHeight": "var(--ifm-pre-line-height)"
-          }
-        },
-        "sidebar": {
-          "width": "300px",
-          "backgroundColor": "rgb(24, 25, 26)",
-          "textColor": "#f5f6f7",
-          "arrow": {
-            "color": "#f5f6f7"
-          }
-        },
-        "colors": {
-          "text": {
-            "primary": "#f5f6f7",
-            "secondary": "rgba(255, 255, 255, 1)"
-          },
-          "gray": {
-            "50": "#FAFAFA",
-            "100": "#F5F5F5"
-          },
-          "border": {
-            "dark": "#ffffff",
-            "light": "rgba(0,0,0, 0.1)"
-          },
-          "primary": {
-            "main": "#2A93A7"
-          }
-        },
-        "schema": {
-          "nestedBackground": "rgb(24, 25, 26)",
-          "typeNameColor": "rgba(255, 255, 255, 1)",
-          "typeTitleColor": "rgba(255, 255, 255, 1)"
-        },
-        "theme": {
-          "prism": {
-            "additionalLanguages": [
-              "scala"
-            ]
-          }
-        }
-      },
-      "options": {
-        "scrollYOffset": "nav.navbar",
-        "expandSingleSchemaField": true,
-        "menuToggle": true,
-        "suppressWarnings": true
-      }
-    }
-  },
   "docusaurus-plugin-redoc": {
     "plugin-redoc-0": {
-      "url": "redocusaurus/plugin-redoc-0.yaml",
+      "url": "https://raw.githubusercontent.com/cambrion-vision/api-sepc/main/cambrion_api.yaml",
       "themeId": "theme-redoc",
-      "isSpecFile": true,
+      "isSpecFile": false,
       "spec": {
         "openapi": "3.0.3",
         "info": {
@@ -2242,6 +2138,110 @@
       }
     }
   },
+  "docusaurus-theme-redoc": {
+    "theme-redoc": {
+      "lightTheme": {
+        "typography": {
+          "fontFamily": "var(--ifm-font-family-base)",
+          "fontSize": "var(--ifm-font-size-base)",
+          "lineHeight": "var(--ifm-line-height-base)",
+          "fontWeightLight": "var(--ifm-font-weight-light)",
+          "fontWeightRegular": "var(--ifm-font-weight-base)",
+          "fontWeightBold": "var(--ifm-font-weight-bold)",
+          "headings": {
+            "fontFamily": "var(--ifm-heading-font-family)",
+            "fontWeight": "var(--ifm-heading-font-weight)",
+            "lineHeight": "var(--ifm-heading-line-height)"
+          },
+          "code": {
+            "fontFamily": "var(--ifm-font-family-monospace)",
+            "lineHeight": "var(--ifm-pre-line-height)"
+          }
+        },
+        "sidebar": {
+          "width": "300px",
+          "backgroundColor": "#ffffff"
+        },
+        "rightPanel": {
+          "backgroundColor": "#303846"
+        },
+        "colors": {
+          "primary": {
+            "main": "#25c2a0"
+          }
+        },
+        "theme": {
+          "prism": {
+            "additionalLanguages": [
+              "scala"
+            ]
+          }
+        }
+      },
+      "darkTheme": {
+        "typography": {
+          "fontFamily": "var(--ifm-font-family-base)",
+          "fontSize": "var(--ifm-font-size-base)",
+          "lineHeight": "var(--ifm-line-height-base)",
+          "fontWeightLight": "var(--ifm-font-weight-light)",
+          "fontWeightRegular": "var(--ifm-font-weight-base)",
+          "fontWeightBold": "var(--ifm-font-weight-bold)",
+          "headings": {
+            "fontFamily": "var(--ifm-heading-font-family)",
+            "fontWeight": "var(--ifm-heading-font-weight)",
+            "lineHeight": "var(--ifm-heading-line-height)"
+          },
+          "code": {
+            "fontFamily": "var(--ifm-font-family-monospace)",
+            "lineHeight": "var(--ifm-pre-line-height)"
+          }
+        },
+        "sidebar": {
+          "width": "300px",
+          "backgroundColor": "rgb(24, 25, 26)",
+          "textColor": "#f5f6f7",
+          "arrow": {
+            "color": "#f5f6f7"
+          }
+        },
+        "colors": {
+          "text": {
+            "primary": "#f5f6f7",
+            "secondary": "rgba(255, 255, 255, 1)"
+          },
+          "gray": {
+            "50": "#FAFAFA",
+            "100": "#F5F5F5"
+          },
+          "border": {
+            "dark": "#ffffff",
+            "light": "rgba(0,0,0, 0.1)"
+          },
+          "primary": {
+            "main": "#25c2a0"
+          }
+        },
+        "schema": {
+          "nestedBackground": "rgb(24, 25, 26)",
+          "typeNameColor": "rgba(255, 255, 255, 1)",
+          "typeTitleColor": "rgba(255, 255, 255, 1)"
+        },
+        "theme": {
+          "prism": {
+            "additionalLanguages": [
+              "scala"
+            ]
+          }
+        }
+      },
+      "options": {
+        "scrollYOffset": "nav.navbar",
+        "expandSingleSchemaField": true,
+        "menuToggle": true,
+        "suppressWarnings": true
+      }
+    }
+  },
   "docusaurus-plugin-content-docs": {
     "default": {
       "path": "/docs",
@@ -2259,53 +2259,18 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
+              "id": "workflows/executions",
+              "path": "/docs/workflows/executions",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "id": "workflows/pipeline",
+              "path": "/docs/workflows/pipeline",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
+              "id": "/category/workflows",
+              "path": "/docs/category/workflows",
               "sidebar": "defaultSidebar"
             }
           ],

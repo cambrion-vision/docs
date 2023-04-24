@@ -1,0 +1,23 @@
+{
+  "unversionedId": "guides/index",
+  "id": "guides/index",
+  "title": "index",
+  "description": "fdfdds",
+  "source": "@site/docs/guides/index.mdx",
+  "sourceDirName": "guides",
+  "slug": "/guides/",
+  "permalink": "/docs/guides/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "Hello from Docusaurus",
+    "permalink": "/docs/home"
+  }
+}

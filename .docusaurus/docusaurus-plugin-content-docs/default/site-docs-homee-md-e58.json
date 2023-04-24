@@ -1,0 +1,22 @@
+{
+  "unversionedId": "homee",
+  "id": "homee",
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/homee.md",
+  "sourceDirName": ".",
+  "slug": "/homee",
+  "permalink": "/docs/homee",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
+  }
+}

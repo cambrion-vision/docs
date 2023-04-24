@@ -1,0 +1,21 @@
+{
+  "unversionedId": "home",
+  "id": "home",
+  "title": "Hello from Docusaurus",
+  "description": "Create a doc page with rich content.",
+  "source": "@site/docs/home.md",
+  "sourceDirName": ".",
+  "slug": "/home",
+  "permalink": "/docs/home",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Create a doc page with rich content."
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Guides",
+    "permalink": "/docs/guides"
+  }
+}
