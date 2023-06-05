@@ -4,47 +4,47 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5a1'),
+    component: ComponentCreator('/__docusaurus/debug', 'fa7'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '193'),
+    component: ComponentCreator('/__docusaurus/debug/config', 'dfd'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'c8d'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'f27'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '1f4'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '2ba'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '988'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '2cd'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'b29'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '153'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '83d'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '3fa'),
     exact: true
   },
   {
     path: '/api',
-    component: ComponentCreator('/api', '2a8'),
+    component: ComponentCreator('/api', 'bd5'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '03f'),
+    component: ComponentCreator('/docs', '487'),
     routes: [
       {
         path: '/docs/category/integrations',
@@ -134,7 +134,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '4df'),
+    component: ComponentCreator('/', 'a36'),
     exact: true
   },
   {

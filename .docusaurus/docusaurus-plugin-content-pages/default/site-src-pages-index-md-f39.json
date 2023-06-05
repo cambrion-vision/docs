@@ -3,7 +3,7 @@
   "permalink": "/",
   "source": "@site/src/pages/index.md",
   "title": "Cambrion API Documentation",
-  "description": "Extracting information from documents is a tedious and error-prone process. It becomes even more complicated and costly when you have custom requirements that exceed of the shelf offerings. At Cambrion we set out to provide a solution that enables custom, low-cost document extraction workflows that can be consumed by a standardized API (TODO: link to API docs).",
+  "description": "Extracting information from documents is a tedious and error-prone process. It becomes even more complicated and costly when you have custom requirements that exceed of the shelf offerings. At Cambrion we set out to provide a solution that enables custom, low-cost document extraction workflows that can be consumed by a standardized API.",
   "frontMatter": {
     "title": "Cambrion API Documentation"
   }
