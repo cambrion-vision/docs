@@ -1,0 +1,27 @@
+{
+  "unversionedId": "integrations/camunda",
+  "id": "integrations/camunda",
+  "title": "Camunda",
+  "description": "Using Cambrion with Camunda",
+  "source": "@site/docs/integrations/camunda.md",
+  "sourceDirName": "integrations",
+  "slug": "/integrations/camunda",
+  "permalink": "/docs/integrations/camunda",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "description": "Using Cambrion with Camunda",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Integrations",
+    "permalink": "/docs/category/integrations"
+  },
+  "next": {
+    "title": "Outsystems",
+    "permalink": "/docs/integrations/outsystems"
+  }
+}

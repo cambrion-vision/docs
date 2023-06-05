@@ -1,0 +1,27 @@
+{
+  "unversionedId": "use-cases/invoice",
+  "id": "use-cases/invoice",
+  "title": "Invoice extract",
+  "description": "Extract customer data from an invoice",
+  "source": "@site/docs/use-cases/invoice.md",
+  "sourceDirName": "use-cases",
+  "slug": "/use-cases/invoice",
+  "permalink": "/docs/use-cases/invoice",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "description": "Extract customer data from an invoice",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Link customer data",
+    "permalink": "/docs/use-cases/box"
+  },
+  "next": {
+    "title": "Recipe extract",
+    "permalink": "/docs/use-cases/recipe"
+  }
+}

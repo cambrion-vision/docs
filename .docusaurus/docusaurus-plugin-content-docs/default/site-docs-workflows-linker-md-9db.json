@@ -1,0 +1,27 @@
+{
+  "unversionedId": "workflows/linker",
+  "id": "workflows/linker",
+  "title": "Link business data",
+  "description": "Link business data",
+  "source": "@site/docs/workflows/linker.md",
+  "sourceDirName": "workflows",
+  "slug": "/workflows/linker",
+  "permalink": "/docs/workflows/linker",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "description": "Link business data",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Using an execution",
+    "permalink": "/docs/workflows/executions"
+  },
+  "next": {
+    "title": "The observation object",
+    "permalink": "/docs/workflows/observations"
+  }
+}

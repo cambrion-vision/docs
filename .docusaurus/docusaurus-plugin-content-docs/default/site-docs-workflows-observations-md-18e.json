@@ -1,0 +1,27 @@
+{
+  "unversionedId": "workflows/observations",
+  "id": "workflows/observations",
+  "title": "The observation object",
+  "description": "Organizing results with observations",
+  "source": "@site/docs/workflows/observations.md",
+  "sourceDirName": "workflows",
+  "slug": "/workflows/observations",
+  "permalink": "/docs/workflows/observations",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "description": "Organizing results with observations",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Link business data",
+    "permalink": "/docs/workflows/linker"
+  },
+  "next": {
+    "title": "Use-cases",
+    "permalink": "/docs/category/use-cases"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Use-cases",
+  "description": "Use-cases for Cambrion",
+  "slug": "/category/use-cases",
+  "permalink": "/docs/category/use-cases",
+  "navigation": {
+    "previous": {
+      "title": "The observation object",
+      "permalink": "/docs/workflows/observations"
+    },
+    "next": {
+      "title": "Link customer data",
+      "permalink": "/docs/use-cases/box"
+    }
+  }
+}

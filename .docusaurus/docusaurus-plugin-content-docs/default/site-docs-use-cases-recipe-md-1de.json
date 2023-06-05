@@ -1,0 +1,27 @@
+{
+  "unversionedId": "use-cases/recipe",
+  "id": "use-cases/recipe",
+  "title": "Recipe extract",
+  "description": "Extract customer data from a recipe",
+  "source": "@site/docs/use-cases/recipe.md",
+  "sourceDirName": "use-cases",
+  "slug": "/use-cases/recipe",
+  "permalink": "/docs/use-cases/recipe",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "description": "Extract customer data from a recipe",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Invoice extract",
+    "permalink": "/docs/use-cases/invoice"
+  },
+  "next": {
+    "title": "Integrations",
+    "permalink": "/docs/category/integrations"
+  }
+}

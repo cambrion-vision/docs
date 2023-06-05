@@ -34,7 +34,7 @@ export default {
           }
         ],
         "theme": {
-          "customCss": "/home/daniel/Cambrion/repos/docs/src/css/custom.css"
+          "customCss": "C:\\Users\\daniel\\Documents\\IWR\\Code\\Cambrion\\repos\\github\\docs\\src\\css\\custom.css"
         }
       }
     ]

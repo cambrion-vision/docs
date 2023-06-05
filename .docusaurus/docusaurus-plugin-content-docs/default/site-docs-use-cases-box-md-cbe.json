@@ -1,0 +1,27 @@
+{
+  "unversionedId": "use-cases/box",
+  "id": "use-cases/box",
+  "title": "Link customer data",
+  "description": "Link customer data on a delivery box",
+  "source": "@site/docs/use-cases/box.md",
+  "sourceDirName": "use-cases",
+  "slug": "/use-cases/box",
+  "permalink": "/docs/use-cases/box",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "description": "Link customer data on a delivery box",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Use-cases",
+    "permalink": "/docs/category/use-cases"
+  },
+  "next": {
+    "title": "Invoice extract",
+    "permalink": "/docs/use-cases/invoice"
+  }
+}

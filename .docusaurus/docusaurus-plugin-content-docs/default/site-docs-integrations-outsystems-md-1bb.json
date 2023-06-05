@@ -1,0 +1,27 @@
+{
+  "unversionedId": "integrations/outsystems",
+  "id": "integrations/outsystems",
+  "title": "Outsystems",
+  "description": "Using Cambrion with Outsystems",
+  "source": "@site/docs/integrations/outsystems.md",
+  "sourceDirName": "integrations",
+  "slug": "/integrations/outsystems",
+  "permalink": "/docs/integrations/outsystems",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "description": "Using Cambrion with Outsystems",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Camunda",
+    "permalink": "/docs/integrations/camunda"
+  },
+  "next": {
+    "title": "REST API",
+    "permalink": "/docs/integrations/rest"
+  }
+}

@@ -2254,13 +2254,53 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "integrations/camunda",
+              "path": "/docs/integrations/camunda",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "integrations/outsystems",
+              "path": "/docs/integrations/outsystems",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "integrations/rest",
+              "path": "/docs/integrations/rest",
+              "sidebar": "defaultSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "defaultSidebar"
             },
             {
+              "id": "use-cases/box",
+              "path": "/docs/use-cases/box",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "use-cases/invoice",
+              "path": "/docs/use-cases/invoice",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "use-cases/recipe",
+              "path": "/docs/use-cases/recipe",
+              "sidebar": "defaultSidebar"
+            },
+            {
               "id": "workflows/executions",
               "path": "/docs/workflows/executions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "workflows/linker",
+              "path": "/docs/workflows/linker",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "workflows/observations",
+              "path": "/docs/workflows/observations",
               "sidebar": "defaultSidebar"
             },
             {
@@ -2271,6 +2311,16 @@
             {
               "id": "/category/workflows",
               "path": "/docs/category/workflows",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "/category/use-cases",
+              "path": "/docs/category/use-cases",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "/category/integrations",
+              "path": "/docs/category/integrations",
               "sidebar": "defaultSidebar"
             }
           ],

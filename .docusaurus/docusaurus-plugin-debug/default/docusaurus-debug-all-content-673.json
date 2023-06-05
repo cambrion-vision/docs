@@ -13,9 +13,86 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "contentPath": "/home/daniel/Cambrion/repos/docs/docs",
-          "contentPathLocalized": "/home/daniel/Cambrion/repos/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "contentPath": "C:\\Users\\daniel\\Documents\\IWR\\Code\\Cambrion\\repos\\github\\docs\\docs",
+          "contentPathLocalized": "C:\\Users\\daniel\\Documents\\IWR\\Code\\Cambrion\\repos\\github\\docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
+            {
+              "unversionedId": "integrations/camunda",
+              "id": "integrations/camunda",
+              "title": "Camunda",
+              "description": "Using Cambrion with Camunda",
+              "source": "@site/docs/integrations/camunda.md",
+              "sourceDirName": "integrations",
+              "slug": "/integrations/camunda",
+              "permalink": "/docs/integrations/camunda",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "description": "Using Cambrion with Camunda",
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Integrations",
+                "permalink": "/docs/category/integrations"
+              },
+              "next": {
+                "title": "Outsystems",
+                "permalink": "/docs/integrations/outsystems"
+              }
+            },
+            {
+              "unversionedId": "integrations/outsystems",
+              "id": "integrations/outsystems",
+              "title": "Outsystems",
+              "description": "Using Cambrion with Outsystems",
+              "source": "@site/docs/integrations/outsystems.md",
+              "sourceDirName": "integrations",
+              "slug": "/integrations/outsystems",
+              "permalink": "/docs/integrations/outsystems",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "description": "Using Cambrion with Outsystems",
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Camunda",
+                "permalink": "/docs/integrations/camunda"
+              },
+              "next": {
+                "title": "REST API",
+                "permalink": "/docs/integrations/rest"
+              }
+            },
+            {
+              "unversionedId": "integrations/rest",
+              "id": "integrations/rest",
+              "title": "REST API",
+              "description": "Using the REST API",
+              "source": "@site/docs/integrations/rest.md",
+              "sourceDirName": "integrations",
+              "slug": "/integrations/rest",
+              "permalink": "/docs/integrations/rest",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "description": "Using the REST API",
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Outsystems",
+                "permalink": "/docs/integrations/outsystems"
+              }
+            },
             {
               "unversionedId": "intro",
               "id": "intro",
@@ -40,10 +117,91 @@
               }
             },
             {
+              "unversionedId": "use-cases/box",
+              "id": "use-cases/box",
+              "title": "Link customer data",
+              "description": "Link customer data on a delivery box",
+              "source": "@site/docs/use-cases/box.md",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/box",
+              "permalink": "/docs/use-cases/box",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "description": "Link customer data on a delivery box",
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Use-cases",
+                "permalink": "/docs/category/use-cases"
+              },
+              "next": {
+                "title": "Invoice extract",
+                "permalink": "/docs/use-cases/invoice"
+              }
+            },
+            {
+              "unversionedId": "use-cases/invoice",
+              "id": "use-cases/invoice",
+              "title": "Invoice extract",
+              "description": "Extract customer data from an invoice",
+              "source": "@site/docs/use-cases/invoice.md",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/invoice",
+              "permalink": "/docs/use-cases/invoice",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "description": "Extract customer data from an invoice",
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Link customer data",
+                "permalink": "/docs/use-cases/box"
+              },
+              "next": {
+                "title": "Recipe extract",
+                "permalink": "/docs/use-cases/recipe"
+              }
+            },
+            {
+              "unversionedId": "use-cases/recipe",
+              "id": "use-cases/recipe",
+              "title": "Recipe extract",
+              "description": "Extract customer data from a recipe",
+              "source": "@site/docs/use-cases/recipe.md",
+              "sourceDirName": "use-cases",
+              "slug": "/use-cases/recipe",
+              "permalink": "/docs/use-cases/recipe",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "description": "Extract customer data from a recipe",
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Invoice extract",
+                "permalink": "/docs/use-cases/invoice"
+              },
+              "next": {
+                "title": "Integrations",
+                "permalink": "/docs/category/integrations"
+              }
+            },
+            {
               "unversionedId": "workflows/executions",
               "id": "workflows/executions",
-              "title": "Use an execution",
-              "description": "Directly call a pipeline",
+              "title": "Using an execution",
+              "description": "Using executions",
               "source": "@site/docs/workflows/executions.md",
               "sourceDirName": "workflows",
               "slug": "/workflows/executions",
@@ -53,19 +211,77 @@
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
-                "description": "Directly call a pipeline",
+                "description": "Using executions",
                 "sidebar_position": 3
               },
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "Call a pipeline directly",
+                "title": "Calling a pipeline",
                 "permalink": "/docs/workflows/pipeline"
+              },
+              "next": {
+                "title": "Link business data",
+                "permalink": "/docs/workflows/linker"
+              }
+            },
+            {
+              "unversionedId": "workflows/linker",
+              "id": "workflows/linker",
+              "title": "Link business data",
+              "description": "Link business data",
+              "source": "@site/docs/workflows/linker.md",
+              "sourceDirName": "workflows",
+              "slug": "/workflows/linker",
+              "permalink": "/docs/workflows/linker",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "description": "Link business data",
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Using an execution",
+                "permalink": "/docs/workflows/executions"
+              },
+              "next": {
+                "title": "The observation object",
+                "permalink": "/docs/workflows/observations"
+              }
+            },
+            {
+              "unversionedId": "workflows/observations",
+              "id": "workflows/observations",
+              "title": "The observation object",
+              "description": "Organizing results with observations",
+              "source": "@site/docs/workflows/observations.md",
+              "sourceDirName": "workflows",
+              "slug": "/workflows/observations",
+              "permalink": "/docs/workflows/observations",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "description": "Organizing results with observations",
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Link business data",
+                "permalink": "/docs/workflows/linker"
+              },
+              "next": {
+                "title": "Use-cases",
+                "permalink": "/docs/category/use-cases"
               }
             },
             {
               "unversionedId": "workflows/pipeline",
               "id": "workflows/pipeline",
-              "title": "Call a pipeline directly",
+              "title": "Calling a pipeline",
               "description": "Directly call a pipeline",
               "source": "@site/docs/workflows/pipeline.md",
               "sourceDirName": "workflows",
@@ -74,10 +290,10 @@
               "draft": false,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 1,
               "frontMatter": {
                 "description": "Directly call a pipeline",
-                "sidebar_position": 2
+                "sidebar_position": 1
               },
               "sidebar": "defaultSidebar",
               "previous": {
@@ -85,7 +301,7 @@
                 "permalink": "/docs/category/workflows"
               },
               "next": {
-                "title": "Use an execution",
+                "title": "Using an execution",
                 "permalink": "/docs/workflows/executions"
               }
             }
@@ -110,6 +326,14 @@
                   {
                     "type": "doc",
                     "id": "workflows/executions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "workflows/linker"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "workflows/observations"
                   }
                 ],
                 "link": {
@@ -117,6 +341,58 @@
                   "description": "Typical Cambrion API workflows.",
                   "slug": "/category/workflows",
                   "permalink": "/docs/category/workflows"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Use-cases",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "use-cases/box"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "use-cases/invoice"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "use-cases/recipe"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Use-cases for Cambrion",
+                  "slug": "/category/use-cases",
+                  "permalink": "/docs/category/use-cases"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Integrations",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "integrations/camunda"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "integrations/outsystems"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "integrations/rest"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Integration with Cambrion",
+                  "slug": "/category/integrations",
+                  "permalink": "/docs/category/integrations"
                 }
               }
             ]
@@ -142,7 +418,7 @@
         "permalink": "/",
         "source": "@site/src/pages/index.md",
         "title": "Cambrion API Documentation",
-        "description": "Welcome to this introduction notebook for the Cambrion API. In the following tutorial we introduce the core functionalities of the API and demonstrate how to use it to extract information from complex documents.",
+        "description": "Extracting information from documents is a tedious and error-prone process. It becomes even more complicated and costly when you have custom requirements that exceed of the shelf offerings. At Cambrion we set out to provide a solution that enables custom, low-cost document extraction workflows that can be consumed by a standardized API (TODO: link to API docs).",
         "frontMatter": {
           "title": "Cambrion API Documentation"
         }
