@@ -4,6 +4,10 @@ title: Cambrion API Documentation
 
 # ***<p style={{textAlign: "center"}}>Build and deploy custom document extraction APIs with Cambrion</p>***
 
+# About Cambrion
+
+Cambrion is a high performance, production grade API for extracting structured information from unstructured files (images, PDFs, Word Documents etc.).
+
 Extracting information from documents is a tedious and error-prone process. It becomes even more complicated and costly when you have custom requirements that exceed of the shelf offerings. At Cambrion we set out to provide a solution that enables custom, low-cost document extraction workflows that can be consumed by a [standardized API](/api).
 
 ## Features

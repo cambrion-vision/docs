@@ -1,123 +1,80 @@
 {
-  "/__docusaurus/debug-fa7": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugde-2-88b"
-    }
-  },
-  "/__docusaurus/debug/config-dfd": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugde-2-88b"
-    }
-  },
-  "/__docusaurus/debug/content-f27": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugde-2-88b"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-2ba": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugde-2-88b"
-    }
-  },
-  "/__docusaurus/debug/metadata-2cd": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugde-2-88b"
-    }
-  },
-  "/__docusaurus/debug/registry-153": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugde-2-88b"
-    }
-  },
-  "/__docusaurus/debug/routes-3fa": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugde-2-88b"
-    }
-  },
   "/api-bd5": {
-    "__comp": "__comp---theme-api-docf-0-a-77e",
+    "__comp": "f0ad3fbb",
     "__context": {
-      "plugin": "plugin---api-40-c-4bf"
+      "plugin": "40c46cf8"
     },
-    "specProps": "specProps---api-24-f-7d7",
-    "layoutProps": "layoutProps---apic-7-c-ed4"
+    "specProps": "24f10644",
+    "layoutProps": "c7cf8f0e"
   },
   "/docs-487": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---docs-4-c-8-ca6"
+      "plugin": "4c8b9744"
     },
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "versionMetadata": "935f2afb"
   },
   "/docs/category/integrations-f95": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-integrations-3-c-8-7dc"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "3c89ee2f"
   },
   "/docs/category/use-cases-c7b": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-use-casesb-55-b84"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "b55f2a11"
   },
   "/docs/category/workflows-2c4": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-workflows-279-982"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "279adea9"
   },
   "/docs/integrations/camunda-fb0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-camunda-22-b-0a0"
+    "__comp": "17896441",
+    "content": "22bc03c7"
   },
   "/docs/integrations/outsystems-16d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-outsystems-1-bb-bc6"
+    "__comp": "17896441",
+    "content": "1bb4737d"
   },
   "/docs/integrations/rest-dad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-restcf-1-fa3"
+    "__comp": "17896441",
+    "content": "cf175c0a"
   },
   "/docs/intro-5ba": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/docs/use-cases/box-5c3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-use-cases-boxcbe-5ce"
+    "__comp": "17896441",
+    "content": "cbee1348"
   },
   "/docs/use-cases/invoice-3f8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-use-cases-invoice-0-fd-5ee"
+    "__comp": "17896441",
+    "content": "0fd22a77"
   },
   "/docs/use-cases/recipe-492": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-use-cases-recipe-1-de-13a"
+    "__comp": "17896441",
+    "content": "1de0cb09"
   },
   "/docs/workflows/executions-81b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-workflows-executions-059-fe6"
+    "__comp": "17896441",
+    "content": "059d0e5a"
   },
   "/docs/workflows/linker-e78": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-workflows-linker-9-db-87a"
+    "__comp": "17896441",
+    "content": "9db16444"
   },
   "/docs/workflows/observations-f71": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-workflows-observations-18-e-ca6"
+    "__comp": "17896441",
+    "content": "18e4c304"
   },
   "/docs/workflows/pipeline-e9a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-workflows-pipeline-5-ce-6ec"
+    "__comp": "17896441",
+    "content": "5cee0713"
   },
   "/-a36": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---15-b-74f"
+      "plugin": "15b35140"
     },
-    "content": "content---f-39-267"
+    "content": "f3976560"
   }
 }
