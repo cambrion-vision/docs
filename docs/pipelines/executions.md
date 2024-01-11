@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Using an execution
 
-Before running the pipeline you can populate the execution with media files (e.g. images, pdf etc.) which subsequently can be used in a pipeline.
+Before running the pipeline you can populate the execution with media files (e.g. images, pdf etc.) which subsequently can be used in a pipeline. This enables a simple and efficient way for **batch processing**.
 
 ## An execution is a state
 
@@ -26,8 +26,17 @@ You can add meta data fields to any execution when creating it. There are three 
 2. Add a tag  in the `tag` field. When querying executions the tag can be used as a filter option.
 3. Attach a generic JSON object to the execution. This can be anything as long as it's compatible with JSON.
 
-```py
-url = f"{CAMBRION_API_ENDPOINT}/executions"
+```python
+import requests
+
+url = "https://api.cambrion.io/v1/executions"
+
+CAMBRION_API_KEY = "INSERT_API_KEY"
+headers = {
+  'Accept': 'application/json',
+  'Content-Type': 'application/json',
+  'X-API-Key': CAMBRION_API_KEY
+}
 
 payload = json.dumps({
   "executionId": "my-process-12345", # this can be used
