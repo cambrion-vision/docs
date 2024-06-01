@@ -3,9 +3,9 @@ description: Organizing results with observations
 sidebar_position: 3
 ---
 
-# The observation object
+# Handling results
 
-Document contents are typically highly complex. Especially when you want to incorporate layout information in the pipeline calculations. 
+Document contents are typically highly complex. Especially when you want to incorporate layout information in the pipeline calculations. To efficiently handle document contents we introduced a specific data structure named **observation**.
 
 We modeled the structure of the observation with that in mind. There is a number of things that can be represented with an observation:
 - Layout information data (like location)
@@ -40,6 +40,29 @@ The recursive nature of the observation enables the modelling of vastly differen
 - How to use boxes etc
 - Provide simple python code -->
 
+## Retrieving the full observation
+
+As an observation is mainly used to used to represent the results of pipeline it is either directly returned from a pipeline call or is attached to an [execution](./executions) on which the the pipeline was executed.
+
+Here is an example how to retrieve the observation from an existing execution with ID `my-execution-id`:
+
+```python
+import requests
+
+CAMBRION_API_KEY = "INSERT_API_KEY"
+headers = {
+  'Accept': 'application/json',
+  'Content-Type': 'application/json',
+  'X-API-Key': CAMBRION_API_KEY
+}
+
+url = "https://api.cambrion.io/v1/executions/my-execution-id/observation"
+
+response = requests.request("POST", url, headers=headers)
+
+observation = response.json()
+```
+
 ## Observation as simple JSON
 
 Sometimes you are not interested in layout information from the extracted data and just want to recieve the corresponding JSON object. We provide an endpoint for doing just that:
@@ -56,7 +79,9 @@ headers = {
 
 url = "https://api.cambrion.io/v1/executions/my-execution-id/observation/json"
 
-requests.request("POST", url, headers=headers)
+response = requests.request("POST", url, headers=headers)
+
+json_result = response.json()
 ```
 
 The resulting JSON object is converted from the underlying observation by using the data field from each entity.
@@ -79,7 +104,7 @@ url = "https://api.cambrion.io/v1/executions/my-execution-id/observation/transfo
 
 transform = "{\"name\": **.entities[label = \"name\"].block.text,\"quantity\": **.entities[label = \"qty\"].data.quantityValue,\"weight\": **.entities[label = \"weight\"].data.numberValue}"
 
-requests.request("POST", url, data=transform, headers=headers)
+response = requests.request("POST", url, data=transform, headers=headers)
 ```
 
 Using JSONata we easily transform an observation into the required business representation. JSONata features a lot of built-in operators:

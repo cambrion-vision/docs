@@ -1,11 +1,11 @@
 ---
-description: Directly call a pipeline
+description: Processing documents by directly calling a pipeline
 sidebar_position: 1
 ---
 
-# Calling a pipeline
+# Processing documents
 
-Calling the pipeline directly is the simplest way to interact with the API. You can feed data into the pipeline by using the pipeline endpoint and the pipeline is triggered to be executed with your data. Once the pipeline finished processing your data, the results are delivered in the response body of the API call. Either as an [observation](./observations), a JSON object derived from the observation or a JSONata transformed observation.
+Processing documents with the Cambrion API is simply done by calling a pipeline directly. You can feed data into the pipeline by using the pipeline endpoint and the pipeline is triggered to be executed with your data. Once the pipeline finished processing your data, the results are delivered in the response body of the API call. Either as an [observation](./observations), a JSON object derived from the observation or a JSONata transformed observation.
 
 Here is a simple example of calling a pipeline with a PNG image as input media and returning the observation as result:
 
@@ -64,16 +64,6 @@ response = requests.request("GET", url, headers=headers)
 pipelines = response.json()
 ```
 
-## Idempotence of a pipeline
-
-Executing a pipeline multiple times on an execution is a non-idempotent process. That means that the results of any additional call will be appended to the observation. Calling a pipeline directly with the same data will however result in the same result in every subsequent call.
-
-:::info
-
-The uploaded media objects are **not persisted** when calling the pipeline directly!
-
-:::
-
 ## Asynchronously calling a pipeline
 
 To implement background processing of documents one can execute a pipeline asynchronously by using the `executeAsync` endpoint:
@@ -110,7 +100,27 @@ response = requests.request("POST", url, headers=headers, data=payload)
 execution = response.json()
 ```
 
-The request above reponds immediatly. The reponse object contains the ID of the execution which can be used to retrieve the resulting observation once the pipeline has finnished. The execution is created automatically if no execution ID is given.
+The request above reponds immediatly. The reponse object contains the ID of the execution which can be used to retrieve the resulting observation once the pipeline has finnished. The execution is created automatically if no execution ID is given. 
+
+Adding an `executionId` to the payload executes the pipeline on the media files contained in the execution. Therefore no media files need to be provided in the pipeline call:
+
+```python
+payload = json.dumps({
+    "executionId": "my-execution-id",
+})
+```
+
+See here on how to create an execution: [Creating an execution](./executions#creating-an-execution)
+
+## Idempotence of a pipeline
+
+Executing a pipeline multiple times on an execution is a non-idempotent process. That means that the results of any additional call will be appended to the observation. Calling a pipeline directly with the same data will however result in the same result in every subsequent call.
+
+:::info
+
+The uploaded media objects are **not persisted** when calling the pipeline directly!
+
+:::
 
 
 ## Underlying concept
