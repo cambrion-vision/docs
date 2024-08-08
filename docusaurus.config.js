@@ -8,10 +8,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Cambrion API Docs',
   tagline: 'Cambrion API Guides and API reference',
-  favicon: 'img/favicon-32x32.png',
+  favicon: 'img/cambrion_favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://cambrion.net',
+  url: 'https://cambrion.ai',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -83,12 +83,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logo_cambrion.png',
+      image: 'img/logo_cambrion.jpg',
       navbar: {
         title: 'Cambrion API Docs',
         logo: {
           alt: 'Cambrion Logo',
-          src: 'img/logo_cambrion.png',
+          src: 'img/logo_cambrion.jpg',
         },
         items: [
           {to: 'docs/intro', label: 'Guides', position: 'left'},
@@ -141,7 +141,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Cambrion Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Cambrion GmbH i.G. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
