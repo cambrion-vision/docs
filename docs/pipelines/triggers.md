@@ -5,13 +5,13 @@ sidebar_position: 4
 
 # Processing incoming emails
 
-Instead of calling a pipeline yourself, you can let Cambrion start it when an email arrives. This is done with a **trigger**. A trigger links an email address to a pipeline. When an email arrives at that address, Cambrion creates an [execution](./executions), adds the attachments as media files and runs the pipeline on it.
+Instead of calling a [pipeline](./pipeline) yourself, you can let Cambrion start it when an email arrives. This is done with a **trigger**. A trigger links an email address to a pipeline. When an email arrives at that address, Cambrion creates an [execution](./executions), adds the attachments as media files and runs the pipeline on it.
 
 While [hooks](/api#tag/Hooks) send results out of Cambrion, triggers bring documents in.
 
 :::info
 
-Email is currently the only supported transport for triggers.
+Triggers currently support email only.
 
 :::
 
@@ -22,14 +22,22 @@ A trigger is defined by a mailbox, e.g. `invoices@ingest.cambrion.io`, and the p
 2. Each attachment of the email (up to 20 MB) is added to the execution as a media file.
 3. The pipeline is started on the execution.
 
+For example, an email with two attachments creates one execution containing both files. The email body is not processed, so attach the document instead of pasting it into the body.
+
+## Before you start
+
 Before a trigger can start a pipeline, the following must be in place:
 - The pipeline is **deployed**. Emails sent to a trigger whose pipeline is not deployed bounce.
 - The trigger is **enabled**.
-- The email contains your API key in an `X-API-Key` header. See here on how to add it: [Authenticating trigger emails](#authenticating-trigger-emails)
+- The email contains your API key in an `X-API-Key` header. This header must be added by the sending system or your mail server; an ordinary email without it is rejected. See [Authenticating trigger emails](#authenticating-trigger-emails) for setup details.
 
 ## Creating a trigger
 
+### In the Cambrion app
+
 In the Cambrion app go to **Triggers → Create new trigger**, pick the pipeline, choose a mailbox name and save. Alternatively open a pipeline, choose the **Triggers** tab and click **New trigger**. The pipeline is then already set. The domain part of the address is set by Cambrion.
+
+### Via the API
 
 To create a trigger via the API, perform a POST request on the `triggers` endpoint:
 
@@ -142,7 +150,7 @@ Email headers are visible to every mail server the message passes through, and t
 
 ## Executions started by a trigger
 
-Every execution started by a trigger contains the attachments of the email as media files. The email body is **not** processed, so attach the document instead of pasting it into the body.
+Every execution started by a trigger contains the attachments of the email as media files.
 
 To find the executions a trigger started, each one is tagged with `trigger_email:<mailbox>`, e.g. `trigger_email:invoices`. The tag can be used as a filter when listing executions:
 
